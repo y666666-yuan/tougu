@@ -1,0 +1,65 @@
+
+server:
+  port: 18083
+
+# 星光机房环境
+# mysql
+spring:
+  datasource:
+    url: jdbc:mysql://192.168.15.5:3306/xcsypt?useUnicode=true&zeroDateTimeBehavior=convertToNull&autoReconnect=true&characterEncoding=utf-8
+    username: root
+    password: cjbdi
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+springdoc:
+  api-docs:
+    enabled: true
+    path: /v3/api-docs
+  swagger-ui:
+    enabled: true
+    path: /swagger-ui/index.html
+
+admin:
+  initial:
+    username: admin
+    password: admin123
+
+auth:
+  ignores:
+    urls:
+      - /swagger-ui/**
+      - /v3/api-docs/**
+      - /api/auth/**
+      - /demo/not-need-login
+      - /index.html
+      - /static/**
+      - /favicon.ico
+      - /css/**
+      - /js/**
+      - /img/**
+      - /fonts/**
+      - /assets/**
+      - /**/*.html
+      - /**/*.js
+      - /**/*.css
+      - /**/*.png
+      - /**/*.jpg
+      - /**/*.svg
+      - /**/*.ico
+#      - /algorithm-api/**
+
+forwarding:
+  routes:
+    - id: algorithm-service
+      uri: http://127.0.0.1:5000
+      paths:
+        - /sypt/algorithm-api/**
+      stripPrefix: 2
+
+
+
+
+# 添加下面的配置，让mybatis-plus打印sql
+#mybatis-plus:
+#  configuration:
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

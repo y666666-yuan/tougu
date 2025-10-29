@@ -1,0 +1,6106 @@
+{
+  "hysffxgl": "行业研究以涉诉企业公开案件作为研究基础，将企业分为至32大行业，经行业司法风险评价体系评估，其中房地产行业高司法风险的企业占比最高，达到14.33%，行业或面临较高的司法风险；银行行业公司经营侧案件占比最高，需重点关注行业经营风险；非银金融行业公司财务类案件占比最高，行业或面临较大的违约风险；综合行业公司治理类案件占比最高，行业公司治理能力或有待进一步提升。\n\n 近一年案件量增速最快，案件均值最高的行业分别是综合和美容护理，需多关注相关行业风险的变化。",
+  "industry": [
+    {
+      "name": "房地产",
+      "overall_risk": "近三年，房地产行业涉诉案件总体呈现上升趋势，案件主要集中在上海、海南地区；公司经营风险（69.23%）最为突出。从具体风险类型看，经营风险集中体现为管理不当（51.63%）、主营业务销售纠纷（25.21%）；财务风险（26.43%）集体中体现为债务违约风险（73.25%）、应收账款风险（21.04%）；治理风险（4.33%）集体中体现为人力纠纷（81.29%）。从具体案由看，物业服务合同纠纷（22.61%）占比最高；普通破产债权确认纠纷（同比增长1100%）增速最快，需重点关注可能由此引发的风险。",
+      "case_rating": {
+        "riskEnterpriseProportion": 14.334266293482607,
+        "caseCountYoY": 27263.0,
+        "average": 5,
+        "industrie": "房地产",
+        "median": 3,
+        "ssdyList": [
+          {
+            "c_ssdy": "上海市",
+            "percent": 13.25
+          },
+          {
+            "c_ssdy": "海南省",
+            "percent": 10.08
+          }
+        ],
+        "ay": {
+          "@type": "java.util.HashMap",
+          "c_jaay": "物业服务合同纠纷",
+          "percent": 16.17
+        },
+        "caseCount": 22555.0,
+        "caseType": [
+          {
+            "case_type_one": "公司治理",
+            "percent": 5.87
+          },
+          {
+            "case_type_one": "公司经营",
+            "percent": 68.33
+          },
+          {
+            "case_type_one": "公司财务",
+            "percent": 25.8
+          }
+        ]
+      },
+      "group_by_industry": {
+        "growthRate": [
+          {
+            "case_type_one": "公司治理",
+            "percent": 6.7
+          },
+          {
+            "case_type_one": "公司经营",
+            "percent": 61.41
+          },
+          {
+            "case_type_one": "公司财务",
+            "percent": 31.88
+          }
+        ],
+        "caseType": [
+          {
+            "count": 4,
+            "case_type_one": "公司经营",
+            "percent": 0.08
+          },
+          {
+            "case_type_three": "三方服务纠纷",
+            "count": 115,
+            "case_type_one": "公司经营",
+            "percent": 2.27
+          },
+          {
+            "case_type_three": "业务效率风险",
+            "count": 37,
+            "case_type_one": "公司经营",
+            "percent": 0.73
+          },
+          {
+            "case_type_three": "主营业务销售纠纷",
+            "count": 918,
+            "case_type_one": "公司经营",
+            "percent": 18.14
+          },
+          {
+            "case_type_three": "产品（服务）质量纠纷",
+            "count": 20,
+            "case_type_one": "公司经营",
+            "percent": 0.4
+          },
+          {
+            "case_type_three": "人力纠纷",
+            "count": 313,
+            "case_type_one": "公司治理",
+            "percent": 6.18
+          },
+          {
+            "case_type_three": "供应商纠纷",
+            "count": 856,
+            "case_type_one": "公司经营",
+            "percent": 16.91
+          },
+          {
+            "case_type_three": "债务违约风险",
+            "count": 1024,
+            "case_type_one": "公司财务",
+            "percent": 20.23
+          },
+          {
+            "case_type_three": "债权回收风险",
+            "count": 89,
+            "case_type_one": "公司财务",
+            "percent": 1.76
+          },
+          {
+            "case_type_three": "关联业务纠纷",
+            "count": 89,
+            "case_type_one": "公司经营",
+            "percent": 1.76
+          },
+          {
+            "case_type_three": "安全事故",
+            "count": 21,
+            "case_type_one": "公司治理",
+            "percent": 0.41
+          },
+          {
+            "case_type_three": "对外担保",
+            "count": 12,
+            "case_type_one": "公司财务",
+            "percent": 0.24
+          },
+          {
+            "case_type_three": "应收账款风险",
+            "count": 391,
+            "case_type_one": "公司财务",
+            "percent": 7.72
+          },
+          {
+            "case_type_three": "知识产权纠纷",
+            "count": 4,
+            "case_type_one": "公司经营",
+            "percent": 0.08
+          },
+          {
+            "case_type_three": "管理不当",
+            "count": 1140,
+            "case_type_one": "公司经营",
+            "percent": 22.52
+          },
+          {
+            "case_type_three": "股东权益纠纷",
+            "count": 19,
+            "case_type_one": "公司治理",
+            "percent": 0.38
+          },
+          {
+            "case_type_three": "股权权益纠纷",
+            "count": 9,
+            "case_type_one": "公司治理",
+            "percent": 0.18
+          },
+          {
+            "case_type_three": "行政处罚",
+            "count": 1,
+            "case_type_one": "公司治理",
+            "percent": 0.02
+          }
+        ]
+      },
+      "group_by_jaay": [
+        {
+          "c_jaay": "物业服务合同纠纷",
+          "percent": 6.88
+        },
+        {
+          "c_jaay": "房屋买卖合同纠纷",
+          "percent": 3.91
+        },
+        {
+          "c_jaay": "合同纠纷",
+          "percent": 3.31
+        },
+        {
+          "c_jaay": "服务合同纠纷",
+          "percent": 3.01
+        },
+        {
+          "c_jaay": "商品房预售合同纠纷",
+          "percent": 2.62
+        },
+        {
+          "c_jaay": "买卖合同纠纷",
+          "percent": 1.98
+        },
+        {
+          "c_jaay": "建设工程合同纠纷",
+          "percent": 1.56
+        },
+        {
+          "c_jaay": "建设工程施工合同纠纷",
+          "percent": 1.52
+        },
+        {
+          "c_jaay": "金融借款合同纠纷",
+          "percent": 1.24
+        },
+        {
+          "c_jaay": "借款合同纠纷",
+          "percent": 1.15
+        }
+      ]
+    },
+    {
+      "name": "纺织服饰",
+      "overall_risk": "近三年，纺织服饰行业涉诉案件总体呈现先上升趋势，案件主要集中在江苏、上海地区；公司经营风险（57.13%）最为突出。从具体风险类型看，经营风险集中体现为知识产权纠纷（70.02%）、供应商纠纷（23.19%）；财务风险（29.49%）集体中体现为应收账款风险（56.7%）、债务违约风险（40.49%）；治理风险（13.38%）集体中体现为人力纠纷（95.22%）。从具体案由看，侵害商标权纠纷（17.48%）占比最高；工伤保险待遇纠纷（同比增长700%）增速最快，需重点关注可能由此引发的风险。",
+      "case_rating": {
+        "riskEnterpriseProportion": 5.6811362272454495,
+        "caseCountYoY": 5011.0,
+        "average": 1,
+        "industrie": "纺织服饰",
+        "median": 3,
+        "ssdyList": [
+          {
+            "c_ssdy": "上海市",
+            "percent": 23.5
+          },
+          {
+            "c_ssdy": "广东省",
+            "percent": 16.3
+          }
+        ],
+        "ay": {
+          "@type": "java.util.HashMap",
+          "c_jaay": "侵害商标权纠纷",
+          "percent": 11.28
+        },
+        "caseCount": 4442.0,
+        "caseType": [
+          {
+            "case_type_one": "公司治理",
+            "percent": 13.24
+          },
+          {
+            "case_type_one": "公司经营",
+            "percent": 60.79
+          },
+          {
+            "case_type_one": "公司财务",
+            "percent": 25.96
+          }
+        ]
+      },
+      "group_by_industry": {
+        "growthRate": [
+          {
+            "case_type_one": "公司治理",
+            "percent": 14.92
+          },
+          {
+            "case_type_one": "公司经营",
+            "percent": 51.27
+          },
+          {
+            "case_type_one": "公司财务",
+            "percent": 33.82
+          }
+        ],
+        "caseType": [
+          {
+            "case_type_three": "三方服务纠纷",
+            "count": 9,
+            "case_type_one": "公司经营",
+            "percent": 0.89
+          },
+          {
+            "case_type_three": "主营业务销售纠纷",
+            "count": 2,
+            "case_type_one": "公司经营",
+            "percent": 0.2
+          },
+          {
+            "case_type_three": "产品（服务）质量纠纷",
+            "count": 10,
+            "case_type_one": "公司经营",
+            "percent": 0.99
+          },
+          {
+            "case_type_three": "人力纠纷",
+            "count": 120,
+            "case_type_one": "公司治理",
+            "percent": 11.88
+          },
+          {
+            "case_type_three": "供应商纠纷",
+            "count": 135,
+            "case_type_one": "公司经营",
+            "percent": 13.37
+          },
+          {
+            "case_type_three": "债务违约风险",
+            "count": 127,
+            "case_type_one": "公司财务",
+            "percent": 12.57
+          },
+          {
+            "case_type_three": "债权回收风险",
+            "count": 5,
+            "case_type_one": "公司财务",
+            "percent": 0.5
+          },
+          {
+            "case_type_three": "品牌风险",
+            "count": 4,
+            "case_type_one": "公司经营",
+            "percent": 0.4
+          },
+          {
+            "case_type_three": "安全事故",
+            "count": 4,
+            "case_type_one": "公司治理",
+            "percent": 0.4
+          },
+          {
+            "case_type_three": "应收账款风险",
+            "count": 158,
+            "case_type_one": "公司财务",
+            "percent": 15.64
+          },
+          {
+            "case_type_three": "知识产权纠纷",
+            "count": 405,
+            "case_type_one": "公司经营",
+            "percent": 40.1
+          },
+          {
+            "case_type_three": "管理不当",
+            "count": 30,
+            "case_type_one": "公司经营",
+            "percent": 2.97
+          },
+          {
+            "case_type_three": "股东权益纠纷",
+            "count": 1,
+            "case_type_one": "公司治理",
+            "percent": 0.1
+          }
+        ]
+      },
+      "group_by_jaay": [
+        {
+          "c_jaay": "买卖合同纠纷",
+          "percent": 7.56
+        },
+        {
+          "c_jaay": "侵害商标权纠纷",
+          "percent": 7.07
+        },
+        {
+          "c_jaay": "知识产权权属、侵权纠纷",
+          "percent": 5.13
+        },
+        {
+          "c_jaay": "合同纠纷",
+          "percent": 1.53
+        },
+        {
+          "c_jaay": "劳动争议",
+          "percent": 1.25
+        },
+        {
+          "c_jaay": "承揽合同纠纷",
+          "percent": 1.18
+        },
+        {
+          "c_jaay": "加工合同纠纷",
+          "percent": 1.04
+        },
+        {
+          "c_jaay": "追索劳动报酬纠纷",
+          "percent": 1.04
+        },
+        {
+          "c_jaay": "借款合同纠纷",
+          "percent": 0.94
+        },
+        {
+          "c_jaay": "劳动合同纠纷",
+          "percent": 0.76
+        }
+      ]
+    },
+    {
+      "name": "非银金融",
+      "overall_risk": "近三年，非银金融行业涉诉案件总体呈下降趋势，案件主要集中在上海、吉林地区；公司财务风险（97.22%）最为突出。从具体风险类型看，经营风险（2.11%）集中体现为产品（服务）质量纠纷（53.55%）、管理不当（24.64%）；财务风险集体中体现为债权回收风险（90.29%）、对外担保（4.72%）；治理风险（0.68%）集体中体现为人力纠纷（94.12%）。从具体案由看，金融借款合同纠纷（29.41%）占比最高；实现担保物权裁定（同比增长139%）增速最快，需重点关注可能由此引发的风险。",
+      "case_rating": {
+        "riskEnterpriseProportion": 7.752853207398662,
+        "caseCountYoY": 53948.0,
+        "average": 8,
+        "industrie": "非银金融",
+        "median": 2,
+        "ssdyList": [
+          {
+            "c_ssdy": "上海市",
+            "percent": 34.47
+          },
+          {
+            "c_ssdy": "广东省",
+            "percent": 6.96
+          }
+        ],
+        "ay": {
+          "@type": "java.util.HashMap",
+          "c_jaay": "金融借款合同纠纷",
+          "percent": 24.59
+        },
+        "caseCount": 38705.0,
+        "caseType": [
+          {
+            "case_type_one": "公司治理",
+            "percent": 0.75
+          },
+          {
+            "case_type_one": "公司经营",
+            "percent": 2.28
+          },
+          {
+            "case_type_one": "公司财务",
+            "percent": 96.97
+          }
+        ]
+      },
+      "group_by_industry": {
+        "growthRate": [
+          {
+            "case_type_one": "公司治理",
+            "percent": 0.7
+          },
+          {
+            "case_type_one": "公司经营",
+            "percent": 1.82
+          },
+          {
+            "case_type_one": "公司财务",
+            "percent": 97.48
+          }
+        ],
+        "caseType": [
+          {
+            "count": 12,
+            "case_type_one": "公司财务",
+            "percent": 0.09
+          },
+          {
+            "case_type_three": "三方服务纠纷",
+            "count": 18,
+            "case_type_one": "公司经营",
+            "percent": 0.13
+          },
+          {
+            "case_type_three": "产品（服务）质量纠纷",
+            "count": 111,
+            "case_type_one": "公司经营",
+            "percent": 0.79
+          },
+          {
+            "case_type_three": "人力纠纷",
+            "count": 102,
+            "case_type_one": "公司治理",
+            "percent": 0.73
+          },
+          {
+            "case_type_three": "债务违约风险",
+            "count": 398,
+            "case_type_one": "公司财务",
+            "percent": 2.84
+          },
+          {
+            "case_type_three": "债权回收风险",
+            "count": 12406,
+            "case_type_one": "公司财务",
+            "percent": 88.55
+          },
+          {
+            "case_type_three": "安全事故",
+            "count": 9,
+            "case_type_one": "公司治理",
+            "percent": 0.06
+          },
+          {
+            "case_type_three": "对外担保",
+            "count": 608,
+            "case_type_one": "公司财务",
+            "percent": 4.34
+          },
+          {
+            "case_type_three": "应收账款风险",
+            "count": 268,
+            "case_type_one": "公司财务",
+            "percent": 1.91
+          },
+          {
+            "case_type_three": "知识产权纠纷",
+            "count": 12,
+            "case_type_one": "公司经营",
+            "percent": 0.09
+          },
+          {
+            "case_type_three": "管理不当",
+            "count": 65,
+            "case_type_one": "公司经营",
+            "percent": 0.46
+          },
+          {
+            "case_type_three": "金融资产风险",
+            "count": 1,
+            "case_type_one": "公司财务",
+            "percent": 0.01
+          }
+        ]
+      },
+      "group_by_jaay": [
+        {
+          "c_jaay": "金融借款合同纠纷",
+          "percent": 15.98
+        },
+        {
+          "c_jaay": "融资租赁合同纠纷",
+          "percent": 10.08
+        },
+        {
+          "c_jaay": "追偿权纠纷",
+          "percent": 5.31
+        },
+        {
+          "c_jaay": "借款合同纠纷",
+          "percent": 4.38
+        },
+        {
+          "c_jaay": "小额借款合同纠纷",
+          "percent": 3.35
+        },
+        {
+          "c_jaay": "合同纠纷",
+          "percent": 1.09
+        },
+        {
+          "c_jaay": "租赁合同纠纷",
+          "percent": 0.93
+        },
+        {
+          "c_jaay": "典当纠纷",
+          "percent": 0.45
+        },
+        {
+          "c_jaay": "买卖合同纠纷",
+          "percent": 0.44
+        },
+        {
+          "c_jaay": "民间借贷纠纷",
+          "percent": 0.43
+        }
+      ]
+    },
+    {
+      "name": "传媒",
+      "overall_risk": "近三年，传媒行业涉诉案件总体呈现下降趋势，案件主要集中在上海、北京地区；公司经营风险（70.58%）最为突出。从具体风险类型看，经营风险集中体现为知识产权纠纷（71.58%）、三方服务纠纷（11.21%）；财务风险（23.32%）集体中体现为应收账款风险（79.67%）、债务违约风险（17.07%）；治理风险（6.1%）集体中体现为人力纠纷（80%）、股东权益纠纷（13.77%）。从具体案由看，侵害作品信息网络传播权纠纷（23.08%）占比最高；确认劳动关系纠纷（同比增长600%）增速最快，需重点关注可能由此引发的风险。",
+      "case_rating": {
+        "riskEnterpriseProportion": 4.968076616121309,
+        "caseCountYoY": 5703.0,
+        "average": 1,
+        "industrie": "传媒",
+        "median": 2,
+        "ssdyList": [
+          {
+            "c_ssdy": "上海市",
+            "percent": 60.18
+          },
+          {
+            "c_ssdy": "江苏省",
+            "percent": 6.06
+          }
+        ],
+        "ay": {
+          "@type": "java.util.HashMap",
+          "c_jaay": "侵害作品信息网络传播权纠纷",
+          "percent": 8.31
+        },
+        "caseCount": 4355.0,
+        "caseType": [
+          {
+            "case_type_one": "公司治理",
+            "percent": 7.69
+          },
+          {
+            "case_type_one": "公司经营",
+            "percent": 64.38
+          },
+          {
+            "case_type_one": "公司财务",
+            "percent": 27.93
+          }
+        ]
+      },
+      "group_by_industry": {
+        "growthRate": [
+          {
+            "case_type_one": "公司治理",
+            "percent": 11.02
+          },
+          {
+            "case_type_one": "公司经营",
+            "percent": 53.35
+          },
+          {
+            "case_type_one": "公司财务",
+            "percent": 35.63
+          }
+        ],
+        "caseType": [
+          {
+            "case_type_three": "三方服务纠纷",
+            "count": 76,
+            "case_type_one": "公司经营",
+            "percent": 13.52
+          },
+          {
+            "case_type_three": "产品（服务）质量纠纷",
+            "count": 24,
+            "case_type_one": "公司经营",
+            "percent": 4.27
+          },
+          {
+            "case_type_three": "人力纠纷",
+            "count": 52,
+            "case_type_one": "公司治理",
+            "percent": 9.25
+          },
+          {
+            "case_type_three": "供应商纠纷",
+            "count": 72,
+            "case_type_one": "公司经营",
+            "percent": 12.81
+          },
+          {
+            "case_type_three": "债务违约风险",
+            "count": 45,
+            "case_type_one": "公司财务",
+            "percent": 8.01
+          },
+          {
+            "case_type_three": "债权回收风险",
+            "count": 9,
+            "case_type_one": "公司财务",
+            "percent": 1.6
+          },
+          {
+            "case_type_three": "品牌风险",
+            "count": 1,
+            "case_type_one": "公司经营",
+            "percent": 0.18
+          },
+          {
+            "case_type_three": "安全事故",
+            "count": 4,
+            "case_type_one": "公司治理",
+            "percent": 0.71
+          },
+          {
+            "case_type_three": "应收账款风险",
+            "count": 144,
+            "case_type_one": "公司财务",
+            "percent": 25.62
+          },
+          {
+            "case_type_three": "知识产权纠纷",
+            "count": 106,
+            "case_type_one": "公司经营",
+            "percent": 18.86
+          },
+          {
+            "case_type_three": "管理不当",
+            "count": 19,
+            "case_type_one": "公司经营",
+            "percent": 3.38
+          },
+          {
+            "case_type_three": "股东权益纠纷",
+            "count": 10,
+            "case_type_one": "公司治理",
+            "percent": 1.78
+          }
+        ]
+      },
+      "group_by_jaay": [
+        {
+          "c_jaay": "合同纠纷",
+          "percent": 3.63
+        },
+        {
+          "c_jaay": "服务合同纠纷",
+          "percent": 2.98
+        },
+        {
+          "c_jaay": "买卖合同纠纷",
+          "percent": 2.26
+        },
+        {
+          "c_jaay": "承揽合同纠纷",
+          "percent": 2.26
+        },
+        {
+          "c_jaay": "广告合同纠纷",
+          "percent": 1.37
+        },
+        {
+          "c_jaay": "著作权权属、侵权纠纷",
+          "percent": 1.29
+        },
+        {
+          "c_jaay": "房屋租赁合同纠纷",
+          "percent": 1.21
+        },
+        {
+          "c_jaay": "侵害作品信息网络传播权纠纷",
+          "percent": 1.21
+        },
+        {
+          "c_jaay": "劳动争议",
+          "percent": 0.81
+        },
+        {
+          "c_jaay": "劳动合同纠纷",
+          "percent": 0.64
+        }
+      ]
+    },
+    {
+      "name": "计算机",
+      "overall_risk": "近三年，计算机行业涉诉案件总体呈现上升趋势，案件主要集中在上海、广东地区；公司经营风险（65.37%）最为突出。 从具体风险类型看，经营风险（65.37%）集中体现为知识产权纠纷（62.43%）、主营业务销售纠纷（16.37%）；财务风险（24.14%）集体中体现为债务违约风险（48.43%）、应收账款风险（26.55%）；治理风险（10.47%）集体中体现为人力纠纷（80.8%）。从具体案由看，侵害作品信息网络传播权纠纷（11.27%）占比最高；借款合同纠纷（同比增长130%）增速最快，需重点关注可能由此引发的风险。 ",
+      "case_rating": {
+        "riskEnterpriseProportion": 4.9370377773336,
+        "caseCountYoY": 8904.0,
+        "average": 2,
+        "industrie": "计算机",
+        "median": 2,
+        "ssdyList": [
+          {
+            "c_ssdy": "上海市",
+            "percent": 37.29
+          },
+          {
+            "c_ssdy": "广东省",
+            "percent": 9.55
+          }
+        ],
+        "ay": {
+          "@type": "java.util.HashMap",
+          "c_jaay": "侵害作品信息网络传播权纠纷",
+          "percent": 6.02
+        },
+        "caseCount": 9860.0,
+        "caseType": [
+          {
+            "case_type_one": "公司治理",
+            "percent": 11.56
+          },
+          {
+            "case_type_one": "公司经营",
+            "percent": 55.77
+          },
+          {
+            "case_type_one": "公司财务",
+            "percent": 32.67
+          }
+        ]
+      },
+      "group_by_industry": {
+        "growthRate": [
+          {
+            "case_type_one": "公司治理",
+            "percent": 14.61
+          },
+          {
+            "case_type_one": "公司经营",
+            "percent": 47.1
+          },
+          {
+            "case_type_one": "公司财务",
+            "percent": 38.3
+          }
+        ],
+        "caseType": [
+          {
+            "count": 15,
+            "case_type_one": "公司经营",
+            "percent": 1.0
+          },
+          {
+            "case_type_three": "三方服务纠纷",
+            "count": 54,
+            "case_type_one": "公司经营",
+            "percent": 3.61
+          },
+          {
+            "case_type_three": "主营业务销售纠纷",
+            "count": 157,
+            "case_type_one": "公司经营",
+            "percent": 10.51
+          },
+          {
+            "case_type_three": "产品（服务）质量纠纷",
+            "count": 4,
+            "case_type_one": "公司经营",
+            "percent": 0.27
+          },
+          {
+            "case_type_three": "人力纠纷",
+            "count": 239,
+            "case_type_one": "公司治理",
+            "percent": 16.0
+          },
+          {
+            "case_type_three": "供应商纠纷",
+            "count": 173,
+            "case_type_one": "公司经营",
+            "percent": 11.58
+          },
+          {
+            "case_type_three": "债务违约风险",
+            "count": 134,
+            "case_type_one": "公司财务",
+            "percent": 8.97
+          },
+          {
+            "case_type_three": "债权回收风险",
+            "count": 139,
+            "case_type_one": "公司财务",
+            "percent": 9.3
+          },
+          {
+            "case_type_three": "安全事故",
+            "count": 40,
+            "case_type_one": "公司治理",
+            "percent": 2.68
+          },
+          {
+            "case_type_three": "应收账款风险",
+            "count": 246,
+            "case_type_one": "公司财务",
+            "percent": 16.47
+          },
+          {
+            "case_type_three": "知识产权纠纷",
+            "count": 263,
+            "case_type_one": "公司经营",
+            "percent": 17.6
+          },
+          {
+            "case_type_three": "管理不当",
+            "count": 24,
+            "case_type_one": "公司经营",
+            "percent": 1.61
+          },
+          {
+            "case_type_three": "股东权益纠纷",
+            "count": 5,
+            "case_type_one": "公司治理",
+            "percent": 0.33
+          },
+          {
+            "case_type_three": "金融资产风险",
+            "count": 1,
+            "case_type_one": "公司财务",
+            "percent": 0.07
+          }
+        ]
+      },
+      "group_by_jaay": [
+        {
+          "c_jaay": "租赁合同纠纷",
+          "percent": 3.88
+        },
+        {
+          "c_jaay": "买卖合同纠纷",
+          "percent": 2.95
+        },
+        {
+          "c_jaay": "服务合同纠纷",
+          "percent": 2.23
+        },
+        {
+          "c_jaay": "侵害商标权纠纷",
+          "percent": 2.12
+        },
+        {
+          "c_jaay": "劳动合同纠纷",
+          "percent": 2.11
+        },
+        {
+          "c_jaay": "合同纠纷",
+          "percent": 1.97
+        },
+        {
+          "c_jaay": "公证债权文书",
+          "percent": 1.74
+        },
+        {
+          "c_jaay": "劳动争议",
+          "percent": 1.12
+        },
+        {
+          "c_jaay": "借款合同纠纷",
+          "percent": 0.96
+        },
+        {
+          "c_jaay": "房屋租赁合同纠纷",
+          "percent": 0.84
+        }
+      ]
+    },
+    {
+      "name": "电子",
+      "overall_risk": "近三年，电子行业涉诉案件总体呈现上升趋势，案件主要集中在广东、上海地区；公司经营风险（57.44%）最为突出。从具体风险类型看，经营风险集中体现为知识产权纠纷（57.82%）、供应商纠纷（34.98%）；财务风险（27.06%）集体中体现为应收账款风险（77.31%）、债务违约风险（19.11%）；治理风险（15.46%）集体中体现为人力纠纷（91.53%）。从具体案由看，买卖合同纠纷（17.34%）占比最高；追索劳动报酬纠纷（同比增长135%）增速最快，需重点关注可能由此引发的风险。",
+      "case_rating": {
+        "riskEnterpriseProportion": 4.688439190542977,
+        "caseCountYoY": 4944.0,
+        "average": 1,
+        "industrie": "电子",
+        "median": 3,
+        "ssdyList": [
+          {
+            "c_ssdy": "广东省",
+            "percent": 47.25
+          },
+          {
+            "c_ssdy": "上海市",
+            "percent": 25.63
+          }
+        ],
+        "ay": {
+          "@type": "java.util.HashMap",
+          "c_jaay": "买卖合同纠纷",
+          "percent": 14.99
+        },
+        "caseCount": 5871.0,
+        "caseType": [
+          {
+            "case_type_one": "公司治理",
+            "percent": 24.87
+          },
+          {
+            "case_type_one": "公司经营",
+            "percent": 36.07
+          },
+          {
+            "case_type_one": "公司财务",
+            "percent": 39.05
+          }
+        ]
+      },
+      "group_by_industry": {
+        "growthRate": [
+          {
+            "case_type_one": "公司治理",
+            "percent": 22.67
+          },
+          {
+            "case_type_one": "公司经营",
+            "percent": 42.56
+          },
+          {
+            "case_type_one": "公司财务",
+            "percent": 34.77
+          }
+        ],
+        "caseType": [
+          {
+            "count": 7,
+            "case_type_one": "公司经营",
+            "percent": 0.7
+          },
+          {
+            "case_type_three": "三方服务纠纷",
+            "count": 16,
+            "case_type_one": "公司经营",
+            "percent": 1.59
+          },
+          {
+            "case_type_three": "业务效率风险",
+            "count": 1,
+            "case_type_one": "公司经营",
+            "percent": 0.1
+          },
+          {
+            "case_type_three": "主营业务销售纠纷",
+            "count": 4,
+            "case_type_one": "公司经营",
+            "percent": 0.4
+          },
+          {
+            "case_type_three": "产品（服务）质量纠纷",
+            "count": 1,
+            "case_type_one": "公司经营",
+            "percent": 0.1
+          },
+          {
+            "case_type_three": "人力纠纷",
+            "count": 254,
+            "case_type_one": "公司治理",
+            "percent": 25.22
+          },
+          {
+            "case_type_three": "供应商纠纷",
+            "count": 196,
+            "case_type_one": "公司经营",
+            "percent": 19.46
+          },
+          {
+            "case_type_three": "债务违约风险",
+            "count": 85,
+            "case_type_one": "公司财务",
+            "percent": 8.44
+          },
+          {
+            "case_type_three": "债权回收风险",
+            "count": 19,
+            "case_type_one": "公司财务",
+            "percent": 1.89
+          },
+          {
+            "case_type_three": "品牌风险",
+            "count": 1,
+            "case_type_one": "公司经营",
+            "percent": 0.1
+          },
+          {
+            "case_type_three": "安全事故",
+            "count": 7,
+            "case_type_one": "公司治理",
+            "percent": 0.7
+          },
+          {
+            "case_type_three": "对外担保",
+            "count": 2,
+            "case_type_one": "公司财务",
+            "percent": 0.2
+          },
+          {
+            "case_type_three": "应收账款风险",
+            "count": 230,
+            "case_type_one": "公司财务",
+            "percent": 22.84
+          },
+          {
+            "case_type_three": "知识产权纠纷",
+            "count": 153,
+            "case_type_one": "公司经营",
+            "percent": 15.19
+          },
+          {
+            "case_type_three": "管理不当",
+            "count": 21,
+            "case_type_one": "公司经营",
+            "percent": 2.09
+          },
+          {
+            "case_type_three": "股东权益纠纷",
+            "count": 3,
+            "case_type_one": "公司治理",
+            "percent": 0.3
+          },
+          {
+            "case_type_three": "股权权益纠纷",
+            "count": 6,
+            "case_type_one": "公司治理",
+            "percent": 0.6
+          },
+          {
+            "case_type_three": "行政处罚",
+            "count": 1,
+            "case_type_one": "公司治理",
+            "percent": 0.1
+          }
+        ]
+      },
+      "group_by_jaay": [
+        {
+          "c_jaay": "买卖合同纠纷",
+          "percent": 9.14
+        },
+        {
+          "c_jaay": "劳动争议",
+          "percent": 3.13
+        },
+        {
+          "c_jaay": "侵害商标权纠纷",
+          "percent": 1.62
+        },
+        {
+          "c_jaay": "合同纠纷",
+          "percent": 1.46
+        },
+        {
+          "c_jaay": "劳动合同纠纷",
+          "percent": 1.35
+        },
+        {
+          "c_jaay": "承揽合同纠纷",
+          "percent": 1.18
+        },
+        {
+          "c_jaay": "租赁合同纠纷",
+          "percent": 1.06
+        },
+        {
+          "c_jaay": "知识产权权属、侵权纠纷",
+          "percent": 0.89
+        },
+        {
+          "c_jaay": "追索劳动报酬纠纷",
+          "percent": 0.8
+        },
+        {
+          "c_jaay": "服务合同纠纷",
+          "percent": 0.58
+        }
+      ]
+    },
+    {
+      "name": "国防军工",
+      "overall_risk": "近三年，国防军工行业涉诉案件总体呈现平稳趋势，案件主要集中在江苏、山东地区；公司财务风险（37.76%）最为突出。从具体风险类型看，经营风险（32.81%）集中体现为供应商纠纷（67.6%）、管理不当（16.67%）；财务风险（37.76%）集体中体现为债务违约风险（48.57%）、应收账款风险（47.38%）；治理风险（29.42%）集体中体现为人力纠纷（91.5%）。从具体案由看，买卖合同纠纷（10.17%）占比最高；追偿权纠纷（同比增长136%）增速最快，需重点关注可能由此引发的风险。 ",
+      "case_rating": {
+        "riskEnterpriseProportion": 6.5252201761409125,
+        "caseCountYoY": 5462.0,
+        "average": 1,
+        "industrie": "国防军工",
+        "median": 3,
+        "ssdyList": [
+          {
+            "c_ssdy": "江苏省",
+            "percent": 17.17
+          },
+          {
+            "c_ssdy": "广东省",
+            "percent": 14.05
+          }
+        ],
+        "ay": {
+          "@type": "java.util.HashMap",
+          "c_jaay": "买卖合同纠纷",
+          "percent": 8.34
+        },
+        "caseCount": 5674.0,
+        "caseType": [
+          {
+            "case_type_one": "公司治理",
+            "percent": 33.41
+          },
+          {
+            "case_type_one": "公司经营",
+            "percent": 33.18
+          },
+          {
+            "case_type_one": "公司财务",
+            "percent": 33.41
+          }
+        ]
+      },
+      "group_by_industry": {
+        "growthRate": [
+          {
+            "case_type_one": "公司治理",
+            "percent": 35.96
+          },
+          {
+            "case_type_one": "公司经营",
+            "percent": 29.41
+          },
+          {
+            "case_type_one": "公司财务",
+            "percent": 34.63
+          }
+        ],
+        "caseType": [
+          {
+            "count": 1,
+            "case_type_one": "公司财务",
+            "percent": 0.1
+          },
+          {
+            "case_type_three": "三方服务纠纷",
+            "count": 30,
+            "case_type_one": "公司经营",
+            "percent": 2.86
+          },
+          {
+            "case_type_three": "主营业务销售纠纷",
+            "count": 2,
+            "case_type_one": "公司经营",
+            "percent": 0.19
+          },
+          {
+            "case_type_three": "人力纠纷",
+            "count": 298,
+            "case_type_one": "公司治理",
+            "percent": 28.41
+          },
+          {
+            "case_type_three": "供应商纠纷",
+            "count": 198,
+            "case_type_one": "公司经营",
+            "percent": 18.88
+          },
+          {
+            "case_type_three": "债务违约风险",
+            "count": 218,
+            "case_type_one": "公司财务",
+            "percent": 20.78
+          },
+          {
+            "case_type_three": "债权回收风险",
+            "count": 13,
+            "case_type_one": "公司财务",
+            "percent": 1.24
+          },
+          {
+            "case_type_three": "品牌风险",
+            "count": 1,
+            "case_type_one": "公司经营",
+            "percent": 0.1
+          },
+          {
+            "case_type_three": "多元投资纠纷",
+            "count": 8,
+            "case_type_one": "公司经营",
+            "percent": 0.76
+          },
+          {
+            "case_type_three": "安全事故",
+            "count": 13,
+            "case_type_one": "公司治理",
+            "percent": 1.24
+          },
+          {
+            "case_type_three": "对外担保",
+            "count": 3,
+            "case_type_one": "公司财务",
+            "percent": 0.29
+          },
+          {
+            "case_type_three": "应收账款风险",
+            "count": 174,
+            "case_type_one": "公司财务",
+            "percent": 16.59
+          },
+          {
+            "case_type_three": "知识产权纠纷",
+            "count": 13,
+            "case_type_one": "公司经营",
+            "percent": 1.24
+          },
+          {
+            "case_type_three": "管理不当",
+            "count": 61,
+            "case_type_one": "公司经营",
+            "percent": 5.82
+          },
+          {
+            "case_type_three": "股东权益纠纷",
+            "count": 7,
+            "case_type_one": "公司治理",
+            "percent": 0.67
+          },
+          {
+            "case_type_three": "行政处罚",
+            "count": 1,
+            "case_type_one": "公司治理",
+            "percent": 0.1
+          },
+          {
+            "case_type_three": "金融资产风险",
+            "count": 8,
+            "case_type_one": "公司财务",
+            "percent": 0.76
+          }
+        ]
+      },
+      "group_by_jaay": [
+        {
+          "c_jaay": "买卖合同纠纷",
+          "percent": 5.74
+        },
+        {
+          "c_jaay": "劳动争议",
+          "percent": 4.8
+        },
+        {
+          "c_jaay": "合同纠纷",
+          "percent": 1.78
+        },
+        {
+          "c_jaay": "房屋登记管理（房屋登记）",
+          "percent": 1.76
+        },
+        {
+          "c_jaay": "借款合同纠纷",
+          "percent": 1.39
+        },
+        {
+          "c_jaay": "劳务合同纠纷",
+          "percent": 1.11
+        },
+        {
+          "c_jaay": "承揽合同纠纷",
+          "percent": 1.04
+        },
+        {
+          "c_jaay": "租赁合同纠纷",
+          "percent": 1.04
+        },
+        {
+          "c_jaay": "劳动合同纠纷",
+          "percent": 0.92
+        },
+        {
+          "c_jaay": "船舶修理合同纠纷",
+          "percent": 0.89
+        }
+      ]
+    },
+    {
+      "name": "食品饮料",
+      "overall_risk": "近三年，食品饮料行业涉诉案件总体呈现上升趋势，案件主要集中在上海、广东地区；公司财务风险（46.4%）最为突出。从具体风险类型看，经营风险（38.84%）集中体现为知识产权纠纷（39.01%）、供应商纠纷（35.66%）；财务风险（46.4%）集体中体现为债权回收风险（43.94%）、债务违约风险（54.48%）；治理风险（14.75%）集体中体现为人力纠纷（87.66%）、安全事故（9.02%）。从具体案由看，买卖合同纠纷（12.07%）占比最高；侵权责任纠纷（同比增长119%）增速最快，需重点关注可能由此引发的风险。 ",
+      "case_rating": {
+        "riskEnterpriseProportion": 6.783816918675929,
+        "caseCountYoY": 8610.0,
+        "average": 2,
+        "industrie": "食品饮料",
+        "median": 2,
+        "ssdyList": [
+          {
+            "c_ssdy": "贵州省",
+            "percent": 28.9
+          },
+          {
+            "c_ssdy": "广东省",
+            "percent": 15.84
+          }
+        ],
+        "ay": {
+          "@type": "java.util.HashMap",
+          "c_jaay": "买卖合同纠纷",
+          "percent": 10.12
+        },
+        "caseCount": 8231.0,
+        "caseType": [
+          {
+            "case_type_one": "公司治理",
+            "percent": 19.08
+          },
+          {
+            "case_type_one": "公司经营",
+            "percent": 33.77
+          },
+          {
+            "case_type_one": "公司财务",
+            "percent": 47.15
+          }
+        ]
+      },
+      "group_by_industry": {
+        "growthRate": [
+          {
+            "case_type_one": "公司治理",
+            "percent": 18.5
+          },
+          {
+            "case_type_one": "公司经营",
+            "percent": 29.19
+          },
+          {
+            "case_type_one": "公司财务",
+            "percent": 52.31
+          }
+        ],
+        "caseType": [
+          {
+            "case_type_three": "三方服务纠纷",
+            "count": 20,
+            "case_type_one": "公司经营",
+            "percent": 1.19
+          },
+          {
+            "case_type_three": "主营业务销售纠纷",
+            "count": 5,
+            "case_type_one": "公司经营",
+            "percent": 0.3
+          },
+          {
+            "case_type_three": "产品（服务）质量纠纷",
+            "count": 45,
+            "case_type_one": "公司经营",
+            "percent": 2.67
+          },
+          {
+            "case_type_three": "人力纠纷",
+            "count": 292,
+            "case_type_one": "公司治理",
+            "percent": 17.34
+          },
+          {
+            "case_type_three": "供应商纠纷",
+            "count": 256,
+            "case_type_one": "公司经营",
+            "percent": 15.2
+          },
+          {
+            "case_type_three": "债务违约风险",
+            "count": 292,
+            "case_type_one": "公司财务",
+            "percent": 17.34
+          },
+          {
+            "case_type_three": "债权回收风险",
+            "count": 345,
+            "case_type_one": "公司财务",
+            "percent": 20.49
+          },
+          {
+            "case_type_three": "安全事故",
+            "count": 17,
+            "case_type_one": "公司治理",
+            "percent": 1.01
+          },
+          {
+            "case_type_three": "对外担保",
+            "count": 1,
+            "case_type_one": "公司财务",
+            "percent": 0.06
+          },
+          {
+            "case_type_three": "应收账款风险",
+            "count": 164,
+            "case_type_one": "公司财务",
+            "percent": 9.74
+          },
+          {
+            "case_type_three": "知识产权纠纷",
+            "count": 163,
+            "case_type_one": "公司经营",
+            "percent": 9.68
+          },
+          {
+            "case_type_three": "管理不当",
+            "count": 70,
+            "case_type_one": "公司经营",
+            "percent": 4.16
+          },
+          {
+            "case_type_three": "股东权益纠纷",
+            "count": 13,
+            "case_type_one": "公司治理",
+            "percent": 0.77
+          },
+          {
+            "case_type_three": "金融资产风险",
+            "count": 1,
+            "case_type_one": "公司财务",
+            "percent": 0.06
+          }
+        ]
+      },
+      "group_by_jaay": [
+        {
+          "c_jaay": "买卖合同纠纷",
+          "percent": 9.11
+        },
+        {
+          "c_jaay": "金融借款合同纠纷",
+          "percent": 4.83
+        },
+        {
+          "c_jaay": "借款合同纠纷",
+          "percent": 3.28
+        },
+        {
+          "c_jaay": "劳动争议",
+          "percent": 1.97
+        },
+        {
+          "c_jaay": "侵害商标权纠纷",
+          "percent": 1.29
+        },
+        {
+          "c_jaay": "信用卡纠纷",
+          "percent": 1.29
+        },
+        {
+          "c_jaay": "劳动合同纠纷",
+          "percent": 1.08
+        },
+        {
+          "c_jaay": "追索劳动报酬纠纷",
+          "percent": 1.08
+        },
+        {
+          "c_jaay": "合同纠纷",
+          "percent": 1.03
+        },
+        {
+          "c_jaay": "民间借贷纠纷",
+          "percent": 0.8
+        }
+      ]
+    },
+    {
+      "name": "医药生物",
+      "overall_risk": "近三年，医药生物行业涉诉案件总体呈现上升趋势，案件主要集中在上海、广东地区；公司经营风险（60.17%）最为突出。从具体风险类型看，经营风险（60.17%）集中体现为产品（服务）质量纠纷（57.52%）、供应商纠纷（16.52%）；财务风险（13.84%）集体中体现为债务违约风险（63.22%）、应收账款风险（33.82%）；治理风险（26%）集体中体现为人力纠纷（77.27%）、安全事故（19.62%）。从具体案由看，医疗损害责任纠纷（17.67%）占比最高；票据纠纷（同比增长106%）增速最快，需重点关注可能由此引发的风险。 ",
+      "case_rating": {
+        "riskEnterpriseProportion": 3.977613431940835,
+        "caseCountYoY": 6706.0,
+        "average": 2,
+        "industrie": "医药生物",
+        "median": 3,
+        "ssdyList": [
+          {
+            "c_ssdy": "上海市",
+            "percent": 39.8
+          },
+          {
+            "c_ssdy": "广东省",
+            "percent": 20.34
+          }
+        ],
+        "ay": {
+          "@type": "java.util.HashMap",
+          "c_jaay": "医疗损害责任纠纷",
+          "percent": 12.12
+        },
+        "caseCount": 7601.0,
+        "caseType": [
+          {
+            "case_type_one": "公司治理",
+            "percent": 24.86
+          },
+          {
+            "case_type_one": "公司经营",
+            "percent": 61.62
+          },
+          {
+            "case_type_one": "公司财务",
+            "percent": 13.51
+          }
+        ]
+      },
+      "group_by_industry": {
+        "growthRate": [
+          {
+            "case_type_one": "公司治理",
+            "percent": 26.87
+          },
+          {
+            "case_type_one": "公司经营",
+            "percent": 57.31
+          },
+          {
+            "case_type_one": "公司财务",
+            "percent": 15.82
+          }
+        ],
+        "caseType": [
+          {
+            "count": 2,
+            "case_type_one": "公司经营",
+            "percent": 0.14
+          },
+          {
+            "case_type_three": "三方服务纠纷",
+            "count": 86,
+            "case_type_one": "公司经营",
+            "percent": 5.87
+          },
+          {
+            "case_type_three": "主营业务销售纠纷",
+            "count": 3,
+            "case_type_one": "公司经营",
+            "percent": 0.2
+          },
+          {
+            "case_type_three": "产品（服务）质量纠纷",
+            "count": 538,
+            "case_type_one": "公司经营",
+            "percent": 36.7
+          },
+          {
+            "case_type_three": "人力纠纷",
+            "count": 330,
+            "case_type_one": "公司治理",
+            "percent": 22.51
+          },
+          {
+            "case_type_three": "供应商纠纷",
+            "count": 143,
+            "case_type_one": "公司经营",
+            "percent": 9.75
+          },
+          {
+            "case_type_three": "债务违约风险",
+            "count": 146,
+            "case_type_one": "公司财务",
+            "percent": 9.96
+          },
+          {
+            "case_type_three": "债权回收风险",
+            "count": 6,
+            "case_type_one": "公司财务",
+            "percent": 0.41
+          },
+          {
+            "case_type_three": "多元投资纠纷",
+            "count": 12,
+            "case_type_one": "公司经营",
+            "percent": 0.82
+          },
+          {
+            "case_type_three": "安全事故",
+            "count": 79,
+            "case_type_one": "公司治理",
+            "percent": 5.39
+          },
+          {
+            "case_type_three": "对外担保",
+            "count": 1,
+            "case_type_one": "公司财务",
+            "percent": 0.07
+          },
+          {
+            "case_type_three": "应收账款风险",
+            "count": 45,
+            "case_type_one": "公司财务",
+            "percent": 3.07
+          },
+          {
+            "case_type_three": "知识产权纠纷",
+            "count": 39,
+            "case_type_one": "公司经营",
+            "percent": 2.66
+          },
+          {
+            "case_type_three": "管理不当",
+            "count": 32,
+            "case_type_one": "公司经营",
+            "percent": 2.18
+          },
+          {
+            "case_type_three": "股东权益纠纷",
+            "count": 4,
+            "case_type_one": "公司治理",
+            "percent": 0.27
+          }
+        ]
+      },
+      "group_by_jaay": [
+        {
+          "c_jaay": "医疗损害责任纠纷",
+          "percent": 8.83
+        },
+        {
+          "c_jaay": "医疗服务合同纠纷",
+          "percent": 3.79
+        },
+        {
+          "c_jaay": "买卖合同纠纷",
+          "percent": 3.35
+        },
+        {
+          "c_jaay": "劳动争议",
+          "percent": 3.22
+        },
+        {
+          "c_jaay": "服务合同纠纷",
+          "percent": 1.55
+        },
+        {
+          "c_jaay": "合同纠纷",
+          "percent": 1.47
+        },
+        {
+          "c_jaay": "劳动合同纠纷",
+          "percent": 1.4
+        },
+        {
+          "c_jaay": "生命权、身体权、健康权纠纷",
+          "percent": 0.71
+        },
+        {
+          "c_jaay": "房屋租赁合同纠纷",
+          "percent": 0.63
+        },
+        {
+          "c_jaay": "机动车交通事故责任纠纷",
+          "percent": 0.59
+        }
+      ]
+    },
+    {
+      "name": "家用电器",
+      "overall_risk": "近三年，家用电器行业涉诉案件总体呈现上升趋势，案件主要集中在广东、上海地区；公司经营风险（47.68%）最为突出。从具体风险类型看，经营风险（47.68%）集中体现为知识产权纠纷（50.55%）、供应商纠纷（42.22%）；财务风险（41.07%）集体中体现为应收账款风险（59.87%）、债务违约风险（38.28%）；治理风险（11.24%）集体中体现为人力纠纷（91.81%）。从具体案由看，买卖合同纠纷（25.15%）占比最高；不当得利纠纷（同比增长258%）增速最快，需重点关注可能由此引发的风险。 ",
+      "case_rating": {
+        "riskEnterpriseProportion": 7.772435897435898,
+        "caseCountYoY": 5924.0,
+        "average": 1,
+        "industrie": "家用电器",
+        "median": 2,
+        "ssdyList": [
+          {
+            "c_ssdy": "广东省",
+            "percent": 72.62
+          },
+          {
+            "c_ssdy": "上海市",
+            "percent": 6.31
+          }
+        ],
+        "ay": {
+          "@type": "java.util.HashMap",
+          "c_jaay": "买卖合同纠纷",
+          "percent": 18.57
+        },
+        "caseCount": 6754.0,
+        "caseType": [
+          {
+            "case_type_one": "公司治理",
+            "percent": 12.59
+          },
+          {
+            "case_type_one": "公司经营",
+            "percent": 46.17
+          },
+          {
+            "case_type_one": "公司财务",
+            "percent": 41.24
+          }
+        ]
+      },
+      "group_by_industry": {
+        "growthRate": [
+          {
+            "case_type_one": "公司治理",
+            "percent": 14.2
+          },
+          {
+            "case_type_one": "公司经营",
+            "percent": 38.0
+          },
+          {
+            "case_type_one": "公司财务",
+            "percent": 47.8
+          }
+        ],
+        "caseType": [
+          {
+            "count": 3,
+            "case_type_one": "公司财务",
+            "percent": 0.17
+          },
+          {
+            "case_type_three": "三方服务纠纷",
+            "count": 19,
+            "case_type_one": "公司经营",
+            "percent": 1.07
+          },
+          {
+            "case_type_three": "主营业务销售纠纷",
+            "count": 11,
+            "case_type_one": "公司经营",
+            "percent": 0.62
+          },
+          {
+            "case_type_three": "产品（服务）质量纠纷",
+            "count": 3,
+            "case_type_one": "公司经营",
+            "percent": 0.17
+          },
+          {
+            "case_type_three": "人力纠纷",
+            "count": 164,
+            "case_type_one": "公司治理",
+            "percent": 9.24
+          },
+          {
+            "case_type_three": "供应商纠纷",
+            "count": 385,
+            "case_type_one": "公司经营",
+            "percent": 21.7
+          },
+          {
+            "case_type_three": "债务违约风险",
+            "count": 333,
+            "case_type_one": "公司财务",
+            "percent": 18.77
+          },
+          {
+            "case_type_three": "债权回收风险",
+            "count": 11,
+            "case_type_one": "公司财务",
+            "percent": 0.62
+          },
+          {
+            "case_type_three": "品牌风险",
+            "count": 1,
+            "case_type_one": "公司经营",
+            "percent": 0.06
+          },
+          {
+            "case_type_three": "多元投资纠纷",
+            "count": 3,
+            "case_type_one": "公司经营",
+            "percent": 0.17
+          },
+          {
+            "case_type_three": "安全事故",
+            "count": 5,
+            "case_type_one": "公司治理",
+            "percent": 0.28
+          },
+          {
+            "case_type_three": "对外担保",
+            "count": 2,
+            "case_type_one": "公司财务",
+            "percent": 0.11
+          },
+          {
+            "case_type_three": "应收账款风险",
+            "count": 538,
+            "case_type_one": "公司财务",
+            "percent": 30.33
+          },
+          {
+            "case_type_three": "知识产权纠纷",
+            "count": 210,
+            "case_type_one": "公司经营",
+            "percent": 11.84
+          },
+          {
+            "case_type_three": "管理不当",
+            "count": 61,
+            "case_type_one": "公司经营",
+            "percent": 3.44
+          },
+          {
+            "case_type_three": "股东权益纠纷",
+            "count": 25,
+            "case_type_one": "公司治理",
+            "percent": 1.41
+          }
+        ]
+      },
+      "group_by_jaay": [
+        {
+          "c_jaay": "买卖合同纠纷",
+          "percent": 14.85
+        },
+        {
+          "c_jaay": "劳动争议",
+          "percent": 1.85
+        },
+        {
+          "c_jaay": "承揽合同纠纷",
+          "percent": 1.17
+        },
+        {
+          "c_jaay": "合同纠纷",
+          "percent": 1.14
+        },
+        {
+          "c_jaay": "侵害商标权纠纷",
+          "percent": 0.93
+        },
+        {
+          "c_jaay": "知识产权权属、侵权纠纷",
+          "percent": 0.83
+        },
+        {
+          "c_jaay": "借款合同纠纷",
+          "percent": 0.76
+        },
+        {
+          "c_jaay": "劳动和社会保障行政管理（劳动、社会保障）",
+          "percent": 0.75
+        },
+        {
+          "c_jaay": "不当得利纠纷",
+          "percent": 0.68
+        },
+        {
+          "c_jaay": "侵害外观设计专利权纠纷",
+          "percent": 0.68
+        }
+      ]
+    },
+    {
+      "name": "建筑装饰",
+      "overall_risk": "近三年，建筑装饰行业涉诉案件总体呈现上升趋势，案件主要集中在山东、湖南地区；公司财务风险（42.68%）最为突出。从具体风险类型看，经营风险（37.92%）集中体现为供应商纠纷（87.97%）、管理不当（6.67%）；财务风险（42.68%）集体中体现为债务违约风险（44.85%）、应收账款风险（43.58%）；治理风险（19.42%）集体中体现为人力纠纷（93.1%）。从具体案由看，买卖合同纠纷（12.17%）占比最高；合伙合同纠纷（同比增长100%）增速最快，需重点关注可能由此引发的风险。",
+      "case_rating": {
+        "riskEnterpriseProportion": 9.651046859421735,
+        "caseCountYoY": 18881.0,
+        "average": 3,
+        "industrie": "建筑装饰",
+        "median": 3,
+        "ssdyList": [
+          {
+            "c_ssdy": "山东省",
+            "percent": 12.36
+          },
+          {
+            "c_ssdy": "江苏省",
+            "percent": 9.76
+          }
+        ],
+        "ay": {
+          "@type": "java.util.HashMap",
+          "c_jaay": "买卖合同纠纷",
+          "percent": 10.36
+        },
+        "caseCount": 17495.0,
+        "caseType": [
+          {
+            "case_type_one": "公司治理",
+            "percent": 20.21
+          },
+          {
+            "case_type_one": "公司经营",
+            "percent": 36.83
+          },
+          {
+            "case_type_one": "公司财务",
+            "percent": 42.96
+          }
+        ]
+      },
+      "group_by_industry": {
+        "growthRate": [
+          {
+            "case_type_one": "公司治理",
+            "percent": 20.68
+          },
+          {
+            "case_type_one": "公司经营",
+            "percent": 32.53
+          },
+          {
+            "case_type_one": "公司财务",
+            "percent": 46.79
+          }
+        ],
+        "caseType": [
+          {
+            "case_type_three": "三方服务纠纷",
+            "count": 9,
+            "case_type_one": "公司经营",
+            "percent": 0.21
+          },
+          {
+            "case_type_three": "业务效率风险",
+            "count": 10,
+            "case_type_one": "公司经营",
+            "percent": 0.23
+          },
+          {
+            "case_type_three": "产品（服务）质量纠纷",
+            "count": 33,
+            "case_type_one": "公司经营",
+            "percent": 0.76
+          },
+          {
+            "case_type_three": "人力纠纷",
+            "count": 832,
+            "case_type_one": "公司治理",
+            "percent": 19.17
+          },
+          {
+            "case_type_three": "供应商纠纷",
+            "count": 1233,
+            "case_type_one": "公司经营",
+            "percent": 28.41
+          },
+          {
+            "case_type_three": "债务违约风险",
+            "count": 1090,
+            "case_type_one": "公司财务",
+            "percent": 25.12
+          },
+          {
+            "case_type_three": "债权回收风险",
+            "count": 38,
+            "case_type_one": "公司财务",
+            "percent": 0.88
+          },
+          {
+            "case_type_three": "安全事故",
+            "count": 42,
+            "case_type_one": "公司治理",
+            "percent": 0.97
+          },
+          {
+            "case_type_three": "对外担保",
+            "count": 10,
+            "case_type_one": "公司财务",
+            "percent": 0.23
+          },
+          {
+            "case_type_three": "应收账款风险",
+            "count": 890,
+            "case_type_one": "公司财务",
+            "percent": 20.51
+          },
+          {
+            "case_type_three": "管理不当",
+            "count": 132,
+            "case_type_one": "公司经营",
+            "percent": 3.04
+          },
+          {
+            "case_type_three": "股东权益纠纷",
+            "count": 16,
+            "case_type_one": "公司治理",
+            "percent": 0.37
+          },
+          {
+            "case_type_three": "行政处罚",
+            "count": 2,
+            "case_type_one": "公司治理",
+            "percent": 0.05
+          },
+          {
+            "case_type_three": "金融资产风险",
+            "count": 3,
+            "case_type_one": "公司财务",
+            "percent": 0.07
+          }
+        ]
+      },
+      "group_by_jaay": [
+        {
+          "c_jaay": "买卖合同纠纷",
+          "percent": 7.62
+        },
+        {
+          "c_jaay": "建设工程合同纠纷",
+          "percent": 4.21
+        },
+        {
+          "c_jaay": "建设工程施工合同纠纷",
+          "percent": 3.7
+        },
+        {
+          "c_jaay": "劳动争议",
+          "percent": 3.31
+        },
+        {
+          "c_jaay": "劳务合同纠纷",
+          "percent": 2.82
+        },
+        {
+          "c_jaay": "合同纠纷",
+          "percent": 1.76
+        },
+        {
+          "c_jaay": "租赁合同纠纷",
+          "percent": 1.67
+        },
+        {
+          "c_jaay": "建设工程分包合同纠纷",
+          "percent": 1.57
+        },
+        {
+          "c_jaay": "票据纠纷",
+          "percent": 1.26
+        },
+        {
+          "c_jaay": "追偿权纠纷",
+          "percent": 1.24
+        }
+      ]
+    },
+    {
+      "name": "汽车",
+      "overall_risk": "近三年，汽车行业涉诉案件总体呈现上升趋势，案件主要集中在广东、上海地区；公司经营风险（55.99%）最为突出。从具体风险类型看，经营风险（55.99%）集中体现为供应商纠纷（42.26%）、主营业务销售纠纷（25.92%）；财务风险（22.4%）集体中体现为债务违约风险（47.9%）、应收账款风险（46.74%）；治理风险（21.6%）集体中体现为人力纠纷（79.86%）、安全事故（17.36%）。从具体案由看，买卖合同纠纷（18.27%）占比最高；车辆租赁合同纠纷（同比增长10%）增速最快，需重点关注可能由此引发的风险。 ",
+      "case_rating": {
+        "riskEnterpriseProportion": 3.542125275165099,
+        "caseCountYoY": 4811.0,
+        "average": 1,
+        "industrie": "汽车",
+        "median": 2,
+        "ssdyList": [
+          {
+            "c_ssdy": "广东省",
+            "percent": 33.6
+          },
+          {
+            "c_ssdy": "上海市",
+            "percent": 29.43
+          }
+        ],
+        "ay": {
+          "@type": "java.util.HashMap",
+          "c_jaay": "买卖合同纠纷",
+          "percent": 14.38
+        },
+        "caseCount": 5175.0,
+        "caseType": [
+          {
+            "case_type_one": "公司治理",
+            "percent": 24.84
+          },
+          {
+            "case_type_one": "公司经营",
+            "percent": 54.37
+          },
+          {
+            "case_type_one": "公司财务",
+            "percent": 20.78
+          }
+        ]
+      },
+      "group_by_industry": {
+        "growthRate": [
+          {
+            "case_type_one": "公司治理",
+            "percent": 24.65
+          },
+          {
+            "case_type_one": "公司经营",
+            "percent": 51.04
+          },
+          {
+            "case_type_one": "公司财务",
+            "percent": 24.32
+          }
+        ],
+        "caseType": [
+          {
+            "count": 2,
+            "case_type_one": "公司经营",
+            "percent": 0.2
+          },
+          {
+            "case_type_three": "三方服务纠纷",
+            "count": 38,
+            "case_type_one": "公司经营",
+            "percent": 3.89
+          },
+          {
+            "case_type_three": "业务效率风险",
+            "count": 1,
+            "case_type_one": "公司经营",
+            "percent": 0.1
+          },
+          {
+            "case_type_three": "主营业务销售纠纷",
+            "count": 112,
+            "case_type_one": "公司经营",
+            "percent": 11.48
+          },
+          {
+            "case_type_three": "产品（服务）质量纠纷",
+            "count": 25,
+            "case_type_one": "公司经营",
+            "percent": 2.56
+          },
+          {
+            "case_type_three": "人力纠纷",
+            "count": 133,
+            "case_type_one": "公司治理",
+            "percent": 13.63
+          },
+          {
+            "case_type_three": "供应商纠纷",
+            "count": 288,
+            "case_type_one": "公司经营",
+            "percent": 29.51
+          },
+          {
+            "case_type_three": "债务违约风险",
+            "count": 133,
+            "case_type_one": "公司财务",
+            "percent": 13.63
+          },
+          {
+            "case_type_three": "债权回收风险",
+            "count": 18,
+            "case_type_one": "公司财务",
+            "percent": 1.84
+          },
+          {
+            "case_type_three": "多元投资纠纷",
+            "count": 17,
+            "case_type_one": "公司经营",
+            "percent": 1.74
+          },
+          {
+            "case_type_three": "安全事故",
+            "count": 40,
+            "case_type_one": "公司治理",
+            "percent": 4.1
+          },
+          {
+            "case_type_three": "对外担保",
+            "count": 2,
+            "case_type_one": "公司财务",
+            "percent": 0.2
+          },
+          {
+            "case_type_three": "应收账款风险",
+            "count": 115,
+            "case_type_one": "公司财务",
+            "percent": 11.78
+          },
+          {
+            "case_type_three": "知识产权纠纷",
+            "count": 16,
+            "case_type_one": "公司经营",
+            "percent": 1.64
+          },
+          {
+            "case_type_three": "管理不当",
+            "count": 33,
+            "case_type_one": "公司经营",
+            "percent": 3.38
+          },
+          {
+            "case_type_three": "股权权益纠纷",
+            "count": 3,
+            "case_type_one": "公司治理",
+            "percent": 0.31
+          }
+        ]
+      },
+      "group_by_jaay": [
+        {
+          "c_jaay": "买卖合同纠纷",
+          "percent": 9.12
+        },
+        {
+          "c_jaay": "承揽合同纠纷",
+          "percent": 1.96
+        },
+        {
+          "c_jaay": "劳动争议",
+          "percent": 1.67
+        },
+        {
+          "c_jaay": "合同纠纷",
+          "percent": 1.46
+        },
+        {
+          "c_jaay": "修理合同纠纷",
+          "percent": 1.05
+        },
+        {
+          "c_jaay": "劳动合同纠纷",
+          "percent": 0.95
+        },
+        {
+          "c_jaay": "机动车交通事故责任纠纷",
+          "percent": 0.86
+        },
+        {
+          "c_jaay": "服务合同纠纷",
+          "percent": 0.81
+        },
+        {
+          "c_jaay": "租赁合同纠纷",
+          "percent": 0.69
+        },
+        {
+          "c_jaay": "追偿权纠纷",
+          "percent": 0.69
+        }
+      ]
+    },
+    {
+      "name": "银行",
+      "overall_risk": "近三年，银行行业涉诉案件总体呈现下降趋势，案件主要集中在上海、广东地区；公司经营风险（99.89%）最为突出。从具体风险类型看，经营风险（99.89%）集中体现为个人贷款业务纠纷（91.82%）、公司贷款业务纠纷（7.9%）；治理风险（0.1%）集体中体现为人力纠纷（99%）。从具体案由看，信用卡纠纷（23.54%）占比最高；劳动合同纠纷（同比增长140%）增速最快，需重点关注可能由此引发的风险。 ",
+      "case_rating": {
+        "riskEnterpriseProportion": 0.0,
+        "caseCountYoY": 340125.0,
+        "average": 62,
+        "industrie": "银行",
+        "median": 34,
+        "ssdyList": [
+          {
+            "c_ssdy": "广东省",
+            "percent": 21.63
+          },
+          {
+            "c_ssdy": "重庆市",
+            "percent": 11.16
+          }
+        ],
+        "ay": {
+          "@type": "java.util.HashMap",
+          "c_jaay": "金融借款合同纠纷",
+          "percent": 19.42
+        },
+        "caseCount": 312090.0,
+        "caseType": [
+          {
+            "case_type_one": "公司治理",
+            "percent": 0.1
+          },
+          {
+            "case_type_one": "公司经营",
+            "percent": 99.9
+          }
+        ]
+      },
+      "group_by_industry": {
+        "growthRate": [
+          {
+            "case_type_one": "公司治理",
+            "percent": 0.13
+          },
+          {
+            "case_type_one": "公司经营",
+            "percent": 99.87
+          }
+        ],
+        "caseType": [
+          {
+            "count": 60,
+            "case_type_one": "公司经营",
+            "percent": 0.07
+          },
+          {
+            "case_type_three": "个人贷款业务纠纷",
+            "count": 80960,
+            "case_type_one": "公司经营",
+            "percent": 91.25
+          },
+          {
+            "case_type_three": "人力纠纷",
+            "count": 111,
+            "case_type_one": "公司治理",
+            "percent": 0.13
+          },
+          {
+            "case_type_three": "储蓄存款业务纠纷",
+            "count": 34,
+            "case_type_one": "公司经营",
+            "percent": 0.04
+          },
+          {
+            "case_type_three": "公司贷款业务纠纷",
+            "count": 7363,
+            "case_type_one": "公司经营",
+            "percent": 8.3
+          },
+          {
+            "case_type_three": "知识产权纠纷",
+            "count": 6,
+            "case_type_one": "公司经营",
+            "percent": 0.01
+          },
+          {
+            "case_type_three": "票据业务纠纷",
+            "count": 55,
+            "case_type_one": "公司经营",
+            "percent": 0.06
+          },
+          {
+            "case_type_three": "管理不当",
+            "count": 62,
+            "case_type_one": "公司经营",
+            "percent": 0.07
+          },
+          {
+            "case_type_three": "财富管理业务纠纷",
+            "count": 27,
+            "case_type_one": "公司经营",
+            "percent": 0.03
+          },
+          {
+            "case_type_three": "资产处置纠纷",
+            "count": 30,
+            "case_type_one": "公司经营",
+            "percent": 0.03
+          },
+          {
+            "case_type_three": "银行卡业务纠纷",
+            "count": 16,
+            "case_type_one": "公司经营",
+            "percent": 0.02
+          }
+        ]
+      },
+      "group_by_jaay": [
+        {
+          "c_jaay": "金融借款合同纠纷",
+          "percent": 14.05
+        },
+        {
+          "c_jaay": "借款合同纠纷",
+          "percent": 8.09
+        },
+        {
+          "c_jaay": "信用卡纠纷",
+          "percent": 7.9
+        },
+        {
+          "c_jaay": "银行卡纠纷",
+          "percent": 4.75
+        },
+        {
+          "c_jaay": "小额借款合同纠纷",
+          "percent": 0.63
+        },
+        {
+          "c_jaay": "合同纠纷",
+          "percent": 0.53
+        },
+        {
+          "c_jaay": "公证债权文书",
+          "percent": 0.19
+        },
+        {
+          "c_jaay": "房屋买卖合同纠纷",
+          "percent": 0.08
+        },
+        {
+          "c_jaay": "追偿权纠纷",
+          "percent": 0.07
+        },
+        {
+          "c_jaay": "商品房预售合同纠纷",
+          "percent": 0.06
+        }
+      ]
+    },
+    {
+      "name": "电力设备",
+      "overall_risk": "近三年，电力设备行业涉诉案件总体呈现上升趋势，案件主要集中在广东、上海地区；公司财务风险（65.78%）最为突出。从具体风险类型看，经营风险（22.41%）集中体现供应商纠纷（64.39%）、管理不当（10.35%）；财务风险（65.78%）集体中体现为应收账款风险（83.14%）、债务违约风险（14.4%）；治理风险（11.78%）集体中体现为人力纠纷（82.77%）、股东权益纠纷（10.78%）。从具体案由看，买卖合同纠纷（29.87%）占比最高；分期付款买卖合同纠纷（同比增长67.86%）增速最快，需重点关注可能由此引发的风险。",
+      "case_rating": {
+        "riskEnterpriseProportion": 5.755395683453238,
+        "caseCountYoY": 8039.0,
+        "average": 2,
+        "industrie": "电力设备",
+        "median": 2,
+        "ssdyList": [
+          {
+            "c_ssdy": "广东省",
+            "percent": 35.8
+          },
+          {
+            "c_ssdy": "上海市",
+            "percent": 12.65
+          }
+        ],
+        "ay": {
+          "@type": "java.util.HashMap",
+          "c_jaay": "买卖合同纠纷",
+          "percent": 23.57
+        },
+        "caseCount": 9249.0,
+        "caseType": [
+          {
+            "case_type_one": "公司治理",
+            "percent": 13.9
+          },
+          {
+            "case_type_one": "公司经营",
+            "percent": 24.15
+          },
+          {
+            "case_type_one": "公司财务",
+            "percent": 61.95
+          }
+        ]
+      },
+      "group_by_industry": {
+        "growthRate": [
+          {
+            "case_type_one": "公司治理",
+            "percent": 15.44
+          },
+          {
+            "case_type_one": "公司经营",
+            "percent": 20.75
+          },
+          {
+            "case_type_one": "公司财务",
+            "percent": 63.81
+          }
+        ],
+        "caseType": [
+          {
+            "case_type_three": "三方服务纠纷",
+            "count": 37,
+            "case_type_one": "公司经营",
+            "percent": 1.84
+          },
+          {
+            "case_type_three": "业务效率风险",
+            "count": 3,
+            "case_type_one": "公司经营",
+            "percent": 0.15
+          },
+          {
+            "case_type_three": "主营业务销售纠纷",
+            "count": 6,
+            "case_type_one": "公司经营",
+            "percent": 0.3
+          },
+          {
+            "case_type_three": "产品（服务）质量纠纷",
+            "count": 22,
+            "case_type_one": "公司经营",
+            "percent": 1.09
+          },
+          {
+            "case_type_three": "人力纠纷",
+            "count": 245,
+            "case_type_one": "公司治理",
+            "percent": 12.18
+          },
+          {
+            "case_type_three": "供应商纠纷",
+            "count": 273,
+            "case_type_one": "公司经营",
+            "percent": 13.58
+          },
+          {
+            "case_type_three": "债务违约风险",
+            "count": 222,
+            "case_type_one": "公司财务",
+            "percent": 11.04
+          },
+          {
+            "case_type_three": "债权回收风险",
+            "count": 23,
+            "case_type_one": "公司财务",
+            "percent": 1.14
+          },
+          {
+            "case_type_three": "品牌风险",
+            "count": 4,
+            "case_type_one": "公司经营",
+            "percent": 0.2
+          },
+          {
+            "case_type_three": "商业欺诈",
+            "count": 5,
+            "case_type_one": "公司治理",
+            "percent": 0.25
+          },
+          {
+            "case_type_three": "安全事故",
+            "count": 9,
+            "case_type_one": "公司治理",
+            "percent": 0.45
+          },
+          {
+            "case_type_three": "对外担保",
+            "count": 4,
+            "case_type_one": "公司财务",
+            "percent": 0.2
+          },
+          {
+            "case_type_three": "应收账款风险",
+            "count": 1077,
+            "case_type_one": "公司财务",
+            "percent": 53.56
+          },
+          {
+            "case_type_three": "知识产权纠纷",
+            "count": 15,
+            "case_type_one": "公司经营",
+            "percent": 0.75
+          },
+          {
+            "case_type_three": "破产",
+            "count": 2,
+            "case_type_one": "公司经营",
+            "percent": 0.1
+          },
+          {
+            "case_type_three": "管理不当",
+            "count": 40,
+            "case_type_one": "公司经营",
+            "percent": 1.99
+          },
+          {
+            "case_type_three": "股东权益纠纷",
+            "count": 20,
+            "case_type_one": "公司治理",
+            "percent": 0.99
+          },
+          {
+            "case_type_three": "金融资产风险",
+            "count": 4,
+            "case_type_one": "公司财务",
+            "percent": 0.2
+          }
+        ]
+      },
+      "group_by_jaay": [
+        {
+          "c_jaay": "买卖合同纠纷",
+          "percent": 15.55
+        },
+        {
+          "c_jaay": "劳动争议",
+          "percent": 2.36
+        },
+        {
+          "c_jaay": "合同纠纷",
+          "percent": 1.47
+        },
+        {
+          "c_jaay": "承揽合同纠纷",
+          "percent": 0.53
+        },
+        {
+          "c_jaay": "借款合同纠纷",
+          "percent": 0.47
+        },
+        {
+          "c_jaay": "分期付款买卖合同纠纷",
+          "percent": 0.45
+        },
+        {
+          "c_jaay": "建设工程合同纠纷",
+          "percent": 0.43
+        },
+        {
+          "c_jaay": "劳动合同纠纷",
+          "percent": 0.33
+        },
+        {
+          "c_jaay": "建设工程施工合同纠纷",
+          "percent": 0.33
+        },
+        {
+          "c_jaay": "租赁合同纠纷",
+          "percent": 0.26
+        }
+      ]
+    },
+    {
+      "name": "钢铁",
+      "overall_risk": "近三年，钢铁行业涉诉案件总体呈现下降趋势，案件主要集中在河北、内蒙地区；公司财务风险（43.66%）最为突出。从具体风险类型看，经营风险（32.88%）集中体现为供应商纠纷（72.93%）、管理不当（13.78%）；财务风险（43.66%）集体中体现为债务违约风险（57.92%）、应收账款风险（38.41%）；治理风险（23.44%）集体中体现为人力纠纷（93.26%）。从具体案由看，买卖合同纠纷（18.91%）占比最高；排除妨害纠纷（同比增长264%）增速最快，需重点关注可能由此引发的风险。",
+      "case_rating": {
+        "riskEnterpriseProportion": 10.256410256410255,
+        "caseCountYoY": 6982.0,
+        "average": 2,
+        "industrie": "钢铁",
+        "median": 2,
+        "ssdyList": [
+          {
+            "c_ssdy": "河北省",
+            "percent": 22.4
+          },
+          {
+            "c_ssdy": "内蒙古自治区",
+            "percent": 12.61
+          }
+        ],
+        "ay": {
+          "@type": "java.util.HashMap",
+          "c_jaay": "买卖合同纠纷",
+          "percent": 18.29
+        },
+        "caseCount": 7670.0,
+        "caseType": [
+          {
+            "case_type_one": "公司治理",
+            "percent": 27.84
+          },
+          {
+            "case_type_one": "公司经营",
+            "percent": 37.34
+          },
+          {
+            "case_type_one": "公司财务",
+            "percent": 34.82
+          }
+        ]
+      },
+      "group_by_industry": {
+        "growthRate": [
+          {
+            "case_type_one": "公司治理",
+            "percent": 25.43
+          },
+          {
+            "case_type_one": "公司经营",
+            "percent": 28.74
+          },
+          {
+            "case_type_one": "公司财务",
+            "percent": 45.83
+          }
+        ],
+        "caseType": [
+          {
+            "case_type_three": "三方服务纠纷",
+            "count": 41,
+            "case_type_one": "公司经营",
+            "percent": 1.94
+          },
+          {
+            "case_type_three": "业务效率风险",
+            "count": 5,
+            "case_type_one": "公司经营",
+            "percent": 0.24
+          },
+          {
+            "case_type_three": "主营业务销售纠纷",
+            "count": 4,
+            "case_type_one": "公司经营",
+            "percent": 0.19
+          },
+          {
+            "case_type_three": "产品（服务）质量纠纷",
+            "count": 6,
+            "case_type_one": "公司经营",
+            "percent": 0.28
+          },
+          {
+            "case_type_three": "人力纠纷",
+            "count": 537,
+            "case_type_one": "公司治理",
+            "percent": 25.45
+          },
+          {
+            "case_type_three": "供应商纠纷",
+            "count": 402,
+            "case_type_one": "公司经营",
+            "percent": 19.05
+          },
+          {
+            "case_type_three": "债务违约风险",
+            "count": 580,
+            "case_type_one": "公司财务",
+            "percent": 27.49
+          },
+          {
+            "case_type_three": "债权回收风险",
+            "count": 24,
+            "case_type_one": "公司财务",
+            "percent": 1.14
+          },
+          {
+            "case_type_three": "品牌风险",
+            "count": 1,
+            "case_type_one": "公司经营",
+            "percent": 0.05
+          },
+          {
+            "case_type_three": "安全事故",
+            "count": 18,
+            "case_type_one": "公司治理",
+            "percent": 0.85
+          },
+          {
+            "case_type_three": "对外担保",
+            "count": 1,
+            "case_type_one": "公司财务",
+            "percent": 0.05
+          },
+          {
+            "case_type_three": "应收账款风险",
+            "count": 388,
+            "case_type_one": "公司财务",
+            "percent": 18.39
+          },
+          {
+            "case_type_three": "环保",
+            "count": 1,
+            "case_type_one": "公司治理",
+            "percent": 0.05
+          },
+          {
+            "case_type_three": "知识产权纠纷",
+            "count": 3,
+            "case_type_one": "公司经营",
+            "percent": 0.14
+          },
+          {
+            "case_type_three": "管理不当",
+            "count": 89,
+            "case_type_one": "公司经营",
+            "percent": 4.22
+          },
+          {
+            "case_type_three": "股东权益纠纷",
+            "count": 6,
+            "case_type_one": "公司治理",
+            "percent": 0.28
+          },
+          {
+            "case_type_three": "行政处罚",
+            "count": 3,
+            "case_type_one": "公司治理",
+            "percent": 0.14
+          },
+          {
+            "case_type_three": "金融资产风险",
+            "count": 1,
+            "case_type_one": "公司财务",
+            "percent": 0.05
+          }
+        ]
+      },
+      "group_by_jaay": [
+        {
+          "c_jaay": "买卖合同纠纷",
+          "percent": 13.3
+        },
+        {
+          "c_jaay": "劳动争议",
+          "percent": 6.45
+        },
+        {
+          "c_jaay": "劳务合同纠纷",
+          "percent": 2.29
+        },
+        {
+          "c_jaay": "合同纠纷",
+          "percent": 2.11
+        },
+        {
+          "c_jaay": "借款合同纠纷",
+          "percent": 1.85
+        },
+        {
+          "c_jaay": "金融借款合同纠纷",
+          "percent": 1.33
+        },
+        {
+          "c_jaay": "建设工程合同纠纷",
+          "percent": 1.17
+        },
+        {
+          "c_jaay": "建设工程施工合同纠纷",
+          "percent": 1.11
+        },
+        {
+          "c_jaay": "承揽合同纠纷",
+          "percent": 1.11
+        },
+        {
+          "c_jaay": "民间借贷纠纷",
+          "percent": 0.94
+        }
+      ]
+    },
+    {
+      "name": "公用事业",
+      "overall_risk": "近三年，公用事业行业涉诉案件总体呈现下降趋势，案件主要集中在内蒙、上海地区；公司财务风险（61.76%）最为突出。从具体风险类型看，经营风险（24.8%）集中体现为供应商纠纷（63.95%）、产品（服务）质量纠纷（13.06%）；财务风险（61.76%）集体中体现为应收账款风险（82.71%）、债务违约风险（15.75%）；治理风险（13.44%）集体中体现为人力纠纷（71.65%）、安全事故（13.84%）。从具体案由看，供用热力合同纠纷（22.85%）占比最高；运输合同纠纷（同比增长192%）增速最快，需重点关注可能由此引发的风险。",
+      "case_rating": {
+        "riskEnterpriseProportion": 5.782514308269192,
+        "caseCountYoY": 9004.0,
+        "average": 2,
+        "industrie": "公用事业",
+        "median": 3,
+        "ssdyList": [
+          {
+            "c_ssdy": "内蒙古自治区",
+            "percent": 22.95
+          },
+          {
+            "c_ssdy": "广东省",
+            "percent": 8.64
+          }
+        ],
+        "ay": {
+          "@type": "java.util.HashMap",
+          "c_jaay": "供用热力合同纠纷",
+          "percent": 32.79
+        },
+        "caseCount": 11306.0,
+        "caseType": [
+          {
+            "case_type_one": "公司治理",
+            "percent": 9.2
+          },
+          {
+            "case_type_one": "公司经营",
+            "percent": 20.82
+          },
+          {
+            "case_type_one": "公司财务",
+            "percent": 69.97
+          }
+        ]
+      },
+      "group_by_industry": {
+        "growthRate": [
+          {
+            "case_type_one": "公司治理",
+            "percent": 17.41
+          },
+          {
+            "case_type_one": "公司经营",
+            "percent": 33.51
+          },
+          {
+            "case_type_one": "公司财务",
+            "percent": 49.08
+          }
+        ],
+        "caseType": [
+          {
+            "case_type_three": "三方服务纠纷",
+            "count": 11,
+            "case_type_one": "公司经营",
+            "percent": 0.45
+          },
+          {
+            "case_type_three": "业务效率风险",
+            "count": 8,
+            "case_type_one": "公司经营",
+            "percent": 0.33
+          },
+          {
+            "case_type_three": "主营业务销售纠纷",
+            "count": 47,
+            "case_type_one": "公司经营",
+            "percent": 1.94
+          },
+          {
+            "case_type_three": "产品（服务）质量纠纷",
+            "count": 87,
+            "case_type_one": "公司经营",
+            "percent": 3.59
+          },
+          {
+            "case_type_three": "人力纠纷",
+            "count": 213,
+            "case_type_one": "公司治理",
+            "percent": 8.79
+          },
+          {
+            "case_type_three": "供应商纠纷",
+            "count": 436,
+            "case_type_one": "公司经营",
+            "percent": 17.99
+          },
+          {
+            "case_type_three": "债务违约风险",
+            "count": 367,
+            "case_type_one": "公司财务",
+            "percent": 15.15
+          },
+          {
+            "case_type_three": "债权回收风险",
+            "count": 24,
+            "case_type_one": "公司财务",
+            "percent": 0.99
+          },
+          {
+            "case_type_three": "关联业务纠纷",
+            "count": 1,
+            "case_type_one": "公司经营",
+            "percent": 0.04
+          },
+          {
+            "case_type_three": "品牌风险",
+            "count": 2,
+            "case_type_one": "公司经营",
+            "percent": 0.08
+          },
+          {
+            "case_type_three": "安全事故",
+            "count": 51,
+            "case_type_one": "公司治理",
+            "percent": 2.1
+          },
+          {
+            "case_type_three": "对外担保",
+            "count": 4,
+            "case_type_one": "公司财务",
+            "percent": 0.17
+          },
+          {
+            "case_type_three": "应收账款风险",
+            "count": 1074,
+            "case_type_one": "公司财务",
+            "percent": 44.33
+          },
+          {
+            "case_type_three": "破产",
+            "count": 10,
+            "case_type_one": "公司经营",
+            "percent": 0.41
+          },
+          {
+            "case_type_three": "管理不当",
+            "count": 66,
+            "case_type_one": "公司经营",
+            "percent": 2.72
+          },
+          {
+            "case_type_three": "股东权益纠纷",
+            "count": 21,
+            "case_type_one": "公司治理",
+            "percent": 0.87
+          },
+          {
+            "case_type_three": "行政处罚",
+            "count": 1,
+            "case_type_one": "公司治理",
+            "percent": 0.04
+          }
+        ]
+      },
+      "group_by_jaay": [
+        {
+          "c_jaay": "供用热力合同纠纷",
+          "percent": 11.75
+        },
+        {
+          "c_jaay": "买卖合同纠纷",
+          "percent": 5.61
+        },
+        {
+          "c_jaay": "合同纠纷",
+          "percent": 2.92
+        },
+        {
+          "c_jaay": "建设工程施工合同纠纷",
+          "percent": 2.21
+        },
+        {
+          "c_jaay": "建设工程合同纠纷",
+          "percent": 1.95
+        },
+        {
+          "c_jaay": "劳动争议",
+          "percent": 1.44
+        },
+        {
+          "c_jaay": "财产损害赔偿纠纷",
+          "percent": 1.38
+        },
+        {
+          "c_jaay": "劳务合同纠纷",
+          "percent": 1.11
+        },
+        {
+          "c_jaay": "借款合同纠纷",
+          "percent": 1.07
+        },
+        {
+          "c_jaay": "劳动合同纠纷",
+          "percent": 0.74
+        }
+      ]
+    },
+    {
+      "name": "环保",
+      "overall_risk": "近三年，环保行业涉诉案件总体呈现上升趋势，案件主要集中在云南、广东地区；公司财务风险（52.28%）最为突出。从具体风险类型看，经营风险（31.49%）集中体现为供应商纠纷（74.94%）、管理不当（16.13%）；财务风险（52.28%）集体中体现为应收账款风险（71.19%）、债务违约风险（24.25%）；治理风险（16.23%）集体中体现为人力纠纷（79.11%）、安全事故（15.96%）。从具体案由看，买卖合同纠纷（13.51%）占比最高；追索劳动报酬纠纷（同比增长873%）增速最快，需重点关注可能由此引发的风险。",
+      "case_rating": {
+        "riskEnterpriseProportion": 5.063291139240507,
+        "caseCountYoY": 7388.0,
+        "average": 2,
+        "industrie": "环保",
+        "median": 3,
+        "ssdyList": [
+          {
+            "c_ssdy": "广东省",
+            "percent": 21.58
+          },
+          {
+            "c_ssdy": "云南省",
+            "percent": 10.84
+          }
+        ],
+        "ay": {
+          "@type": "java.util.HashMap",
+          "c_jaay": "买卖合同纠纷",
+          "percent": 11.07
+        },
+        "caseCount": 8358.0,
+        "caseType": [
+          {
+            "case_type_one": "公司治理",
+            "percent": 17.1
+          },
+          {
+            "case_type_one": "公司经营",
+            "percent": 33.99
+          },
+          {
+            "case_type_one": "公司财务",
+            "percent": 48.92
+          }
+        ]
+      },
+      "group_by_industry": {
+        "growthRate": [
+          {
+            "case_type_one": "公司治理",
+            "percent": 18.83
+          },
+          {
+            "case_type_one": "公司经营",
+            "percent": 30.67
+          },
+          {
+            "case_type_one": "公司财务",
+            "percent": 50.5
+          }
+        ],
+        "caseType": [
+          {
+            "case_type_three": "三方服务纠纷",
+            "count": 28,
+            "case_type_one": "公司经营",
+            "percent": 1.37
+          },
+          {
+            "case_type_three": "业务效率风险",
+            "count": 14,
+            "case_type_one": "公司经营",
+            "percent": 0.69
+          },
+          {
+            "case_type_three": "主营业务销售纠纷",
+            "count": 13,
+            "case_type_one": "公司经营",
+            "percent": 0.64
+          },
+          {
+            "case_type_three": "人力纠纷",
+            "count": 278,
+            "case_type_one": "公司治理",
+            "percent": 13.63
+          },
+          {
+            "case_type_three": "供应商纠纷",
+            "count": 524,
+            "case_type_one": "公司经营",
+            "percent": 25.69
+          },
+          {
+            "case_type_three": "债务违约风险",
+            "count": 357,
+            "case_type_one": "公司财务",
+            "percent": 17.5
+          },
+          {
+            "case_type_three": "债权回收风险",
+            "count": 34,
+            "case_type_one": "公司财务",
+            "percent": 1.67
+          },
+          {
+            "case_type_three": "关联业务纠纷",
+            "count": 1,
+            "case_type_one": "公司经营",
+            "percent": 0.05
+          },
+          {
+            "case_type_three": "品牌风险",
+            "count": 1,
+            "case_type_one": "公司经营",
+            "percent": 0.05
+          },
+          {
+            "case_type_three": "安全事故",
+            "count": 57,
+            "case_type_one": "公司治理",
+            "percent": 2.79
+          },
+          {
+            "case_type_three": "对外担保",
+            "count": 2,
+            "case_type_one": "公司财务",
+            "percent": 0.1
+          },
+          {
+            "case_type_three": "应收账款风险",
+            "count": 631,
+            "case_type_one": "公司财务",
+            "percent": 30.93
+          },
+          {
+            "case_type_three": "知识产权纠纷",
+            "count": 2,
+            "case_type_one": "公司经营",
+            "percent": 0.1
+          },
+          {
+            "case_type_three": "管理不当",
+            "count": 81,
+            "case_type_one": "公司经营",
+            "percent": 3.97
+          },
+          {
+            "case_type_three": "股东权益纠纷",
+            "count": 16,
+            "case_type_one": "公司治理",
+            "percent": 0.78
+          },
+          {
+            "case_type_three": "金融资产风险",
+            "count": 1,
+            "case_type_one": "公司财务",
+            "percent": 0.05
+          }
+        ]
+      },
+      "group_by_jaay": [
+        {
+          "c_jaay": "买卖合同纠纷",
+          "percent": 8.19
+        },
+        {
+          "c_jaay": "建设工程施工合同纠纷",
+          "percent": 3.0
+        },
+        {
+          "c_jaay": "合同纠纷",
+          "percent": 2.89
+        },
+        {
+          "c_jaay": "建设工程合同纠纷",
+          "percent": 2.37
+        },
+        {
+          "c_jaay": "劳动争议",
+          "percent": 2.22
+        },
+        {
+          "c_jaay": "服务合同纠纷",
+          "percent": 1.52
+        },
+        {
+          "c_jaay": "劳务合同纠纷",
+          "percent": 1.27
+        },
+        {
+          "c_jaay": "供用水合同纠纷",
+          "percent": 1.18
+        },
+        {
+          "c_jaay": "承揽合同纠纷",
+          "percent": 1.11
+        },
+        {
+          "c_jaay": "物业服务合同纠纷",
+          "percent": 0.87
+        }
+      ]
+    },
+    {
+      "name": "机械设备",
+      "overall_risk": "近三年，机械设备行业涉诉案件总体呈现上升趋势，案件主要集中在广东、湖南地区；公司经营风险（46.06%）最为突出。从具体风险类型看，经营风险（46.06%）集中体现为主营业务销售纠纷（68.02%）、供应商纠纷（11.01%）；财务风险（41.14%）集体中体现为应收账款风险（54.69%）、债务违约风险（31.38%）；治理风险（12.82%）集体中体现为人力纠纷（85.8%）、安全事故（7.96%）。从具体案由看，买卖合同纠纷（26.31%）占比最高；确认劳动关系纠纷（同比增长50%）增速最快，需重点关注可能由此引发的风险。",
+      "case_rating": {
+        "riskEnterpriseProportion": 5.200239091452481,
+        "caseCountYoY": 6278.0,
+        "average": 1,
+        "industrie": "机械设备",
+        "median": 3,
+        "ssdyList": [
+          {
+            "c_ssdy": "广东省",
+            "percent": 15.98
+          },
+          {
+            "c_ssdy": "江苏省",
+            "percent": 12.07
+          }
+        ],
+        "ay": {
+          "@type": "java.util.HashMap",
+          "c_jaay": "买卖合同纠纷",
+          "percent": 21.23
+        },
+        "caseCount": 6688.0,
+        "caseType": [
+          {
+            "case_type_one": "公司治理",
+            "percent": 11.36
+          },
+          {
+            "case_type_one": "公司经营",
+            "percent": 49.19
+          },
+          {
+            "case_type_one": "公司财务",
+            "percent": 39.44
+          }
+        ]
+      },
+      "group_by_industry": {
+        "growthRate": [
+          {
+            "case_type_one": "公司治理",
+            "percent": 13.12
+          },
+          {
+            "case_type_one": "公司经营",
+            "percent": 38.76
+          },
+          {
+            "case_type_one": "公司财务",
+            "percent": 48.12
+          }
+        ],
+        "caseType": [
+          {
+            "case_type_three": "三方服务纠纷",
+            "count": 57,
+            "case_type_one": "公司经营",
+            "percent": 3.24
+          },
+          {
+            "case_type_three": "业务效率风险",
+            "count": 1,
+            "case_type_one": "公司经营",
+            "percent": 0.06
+          },
+          {
+            "case_type_three": "主营业务销售纠纷",
+            "count": 520,
+            "case_type_one": "公司经营",
+            "percent": 29.53
+          },
+          {
+            "case_type_three": "产品（服务）质量纠纷",
+            "count": 6,
+            "case_type_one": "公司经营",
+            "percent": 0.34
+          },
+          {
+            "case_type_three": "人力纠纷",
+            "count": 228,
+            "case_type_one": "公司治理",
+            "percent": 12.95
+          },
+          {
+            "case_type_three": "供应商纠纷",
+            "count": 96,
+            "case_type_one": "公司经营",
+            "percent": 5.45
+          },
+          {
+            "case_type_three": "债务违约风险",
+            "count": 237,
+            "case_type_one": "公司财务",
+            "percent": 13.46
+          },
+          {
+            "case_type_three": "债权回收风险",
+            "count": 161,
+            "case_type_one": "公司财务",
+            "percent": 9.14
+          },
+          {
+            "case_type_three": "品牌风险",
+            "count": 2,
+            "case_type_one": "公司经营",
+            "percent": 0.11
+          },
+          {
+            "case_type_three": "安全事故",
+            "count": 16,
+            "case_type_one": "公司治理",
+            "percent": 0.91
+          },
+          {
+            "case_type_three": "对外担保",
+            "count": 2,
+            "case_type_one": "公司财务",
+            "percent": 0.11
+          },
+          {
+            "case_type_three": "应收账款风险",
+            "count": 372,
+            "case_type_one": "公司财务",
+            "percent": 21.12
+          },
+          {
+            "case_type_three": "知识产权纠纷",
+            "count": 19,
+            "case_type_one": "公司经营",
+            "percent": 1.08
+          },
+          {
+            "case_type_three": "管理不当",
+            "count": 30,
+            "case_type_one": "公司经营",
+            "percent": 1.7
+          },
+          {
+            "case_type_three": "股东权益纠纷",
+            "count": 12,
+            "case_type_one": "公司治理",
+            "percent": 0.68
+          },
+          {
+            "case_type_three": "金融资产风险",
+            "count": 2,
+            "case_type_one": "公司财务",
+            "percent": 0.11
+          }
+        ]
+      },
+      "group_by_jaay": [
+        {
+          "c_jaay": "买卖合同纠纷",
+          "percent": 14.85
+        },
+        {
+          "c_jaay": "融资租赁合同纠纷",
+          "percent": 2.72
+        },
+        {
+          "c_jaay": "劳动争议",
+          "percent": 2.21
+        },
+        {
+          "c_jaay": "合同纠纷",
+          "percent": 1.88
+        },
+        {
+          "c_jaay": "承揽合同纠纷",
+          "percent": 1.64
+        },
+        {
+          "c_jaay": "借款合同纠纷",
+          "percent": 0.95
+        },
+        {
+          "c_jaay": "租赁合同纠纷",
+          "percent": 0.82
+        },
+        {
+          "c_jaay": "追索劳动报酬纠纷",
+          "percent": 0.72
+        },
+        {
+          "c_jaay": "劳动合同纠纷",
+          "percent": 0.72
+        },
+        {
+          "c_jaay": "建设工程合同纠纷",
+          "percent": 0.7
+        }
+      ]
+    },
+    {
+      "name": "基础化工",
+      "overall_risk": "近三年，基础化工行业涉诉案件总体呈现上升趋势，案件主要集中在上海、广东地区；公司财务风险（56.69%）最为突出。从具体风险类型看，经营风险（27.78%）集中体现为供应商纠纷（57.73%）、管理不当（14.83%）；财务风险（56.69%）集体中体现为应收账款风险（75.37%）、债务违约风险（22.47%）；治理风险（15.52%）集体中体现为人力纠纷（84.66%）。从具体案由看，买卖合同纠纷（22.27%）占比最高；追偿权纠纷（同比增长112%）增速最快，需重点关注可能由此引发的风险。",
+      "case_rating": {
+        "riskEnterpriseProportion": 4.1000000000000005,
+        "caseCountYoY": 4569.0,
+        "average": 1,
+        "industrie": "基础化工",
+        "median": 3,
+        "ssdyList": [
+          {
+            "c_ssdy": "上海市",
+            "percent": 28.6
+          },
+          {
+            "c_ssdy": "广东省",
+            "percent": 17.36
+          }
+        ],
+        "ay": {
+          "@type": "java.util.HashMap",
+          "c_jaay": "买卖合同纠纷",
+          "percent": 17.63
+        },
+        "caseCount": 4798.0,
+        "caseType": [
+          {
+            "case_type_one": "公司治理",
+            "percent": 17.13
+          },
+          {
+            "case_type_one": "公司经营",
+            "percent": 28.53
+          },
+          {
+            "case_type_one": "公司财务",
+            "percent": 54.35
+          }
+        ]
+      },
+      "group_by_industry": {
+        "growthRate": [
+          {
+            "case_type_one": "公司治理",
+            "percent": 17.81
+          },
+          {
+            "case_type_one": "公司经营",
+            "percent": 27.19
+          },
+          {
+            "case_type_one": "公司财务",
+            "percent": 55.0
+          }
+        ],
+        "caseType": [
+          {
+            "case_type_three": "三方服务纠纷",
+            "count": 15,
+            "case_type_one": "公司经营",
+            "percent": 1.77
+          },
+          {
+            "case_type_three": "主营业务销售纠纷",
+            "count": 3,
+            "case_type_one": "公司经营",
+            "percent": 0.35
+          },
+          {
+            "case_type_three": "产品（服务）质量纠纷",
+            "count": 19,
+            "case_type_one": "公司经营",
+            "percent": 2.24
+          },
+          {
+            "case_type_three": "人力纠纷",
+            "count": 169,
+            "case_type_one": "公司治理",
+            "percent": 19.93
+          },
+          {
+            "case_type_three": "供应商纠纷",
+            "count": 117,
+            "case_type_one": "公司经营",
+            "percent": 13.8
+          },
+          {
+            "case_type_three": "债务违约风险",
+            "count": 102,
+            "case_type_one": "公司财务",
+            "percent": 12.03
+          },
+          {
+            "case_type_three": "债权回收风险",
+            "count": 12,
+            "case_type_one": "公司财务",
+            "percent": 1.42
+          },
+          {
+            "case_type_three": "安全事故",
+            "count": 9,
+            "case_type_one": "公司治理",
+            "percent": 1.06
+          },
+          {
+            "case_type_three": "对外担保",
+            "count": 2,
+            "case_type_one": "公司财务",
+            "percent": 0.24
+          },
+          {
+            "case_type_three": "应收账款风险",
+            "count": 329,
+            "case_type_one": "公司财务",
+            "percent": 38.8
+          },
+          {
+            "case_type_three": "知识产权纠纷",
+            "count": 26,
+            "case_type_one": "公司经营",
+            "percent": 3.07
+          },
+          {
+            "case_type_three": "管理不当",
+            "count": 38,
+            "case_type_one": "公司经营",
+            "percent": 4.48
+          },
+          {
+            "case_type_three": "股东权益纠纷",
+            "count": 7,
+            "case_type_one": "公司治理",
+            "percent": 0.83
+          }
+        ]
+      },
+      "group_by_jaay": [
+        {
+          "c_jaay": "买卖合同纠纷",
+          "percent": 10.9
+        },
+        {
+          "c_jaay": "劳动争议",
+          "percent": 3.14
+        },
+        {
+          "c_jaay": "合同纠纷",
+          "percent": 1.39
+        },
+        {
+          "c_jaay": "劳动合同纠纷",
+          "percent": 1.18
+        },
+        {
+          "c_jaay": "承揽合同纠纷",
+          "percent": 1.15
+        },
+        {
+          "c_jaay": "民间借贷纠纷",
+          "percent": 0.88
+        },
+        {
+          "c_jaay": "房屋租赁合同纠纷",
+          "percent": 0.69
+        },
+        {
+          "c_jaay": "建设工程施工合同纠纷",
+          "percent": 0.63
+        },
+        {
+          "c_jaay": "借款合同纠纷",
+          "percent": 0.6
+        },
+        {
+          "c_jaay": "侵害商标权纠纷",
+          "percent": 0.54
+        }
+      ]
+    },
+    {
+      "name": "建筑材料",
+      "overall_risk": "近三年，建筑材料行业涉诉案件总体呈现上升趋势，案件主要集中在广东、上海地区；公司财务风险（70.42%）最为突出。从具体风险类型看，经营风险（19.49%）集中体现为供应商纠纷（60.07%）、产品（服务）质量纠纷（12.88%）；财务风险（70.42%）集体中体现为应收账款风险（79.22%）、债务违约风险（19.09%）；治理风险（10.11%）集体中体现为人力纠纷（80.22%）、安全事故（14.14%）。从具体案由看，买卖合同纠纷（31.57%）占比最高；劳务合同纠纷（同比增长99%）增速最快，需重点关注可能由此引发的风险。",
+      "case_rating": {
+        "riskEnterpriseProportion": 5.93881223755249,
+        "caseCountYoY": 9676.0,
+        "average": 2,
+        "industrie": "建筑材料",
+        "median": 2,
+        "ssdyList": [
+          {
+            "c_ssdy": "广东省",
+            "percent": 27.92
+          },
+          {
+            "c_ssdy": "山东省",
+            "percent": 11.94
+          }
+        ],
+        "ay": {
+          "@type": "java.util.HashMap",
+          "c_jaay": "买卖合同纠纷",
+          "percent": 26.02
+        },
+        "caseCount": 10496.0,
+        "caseType": [
+          {
+            "case_type_one": "公司治理",
+            "percent": 8.44
+          },
+          {
+            "case_type_one": "公司经营",
+            "percent": 22.14
+          },
+          {
+            "case_type_one": "公司财务",
+            "percent": 69.42
+          }
+        ]
+      },
+      "group_by_industry": {
+        "growthRate": [
+          {
+            "case_type_one": "公司治理",
+            "percent": 10.99
+          },
+          {
+            "case_type_one": "公司经营",
+            "percent": 19.33
+          },
+          {
+            "case_type_one": "公司财务",
+            "percent": 69.68
+          }
+        ],
+        "caseType": [
+          {
+            "case_type_three": "三方服务纠纷",
+            "count": 17,
+            "case_type_one": "公司经营",
+            "percent": 0.73
+          },
+          {
+            "case_type_three": "业务效率风险",
+            "count": 2,
+            "case_type_one": "公司经营",
+            "percent": 0.09
+          },
+          {
+            "case_type_three": "主营业务销售纠纷",
+            "count": 65,
+            "case_type_one": "公司经营",
+            "percent": 2.78
+          },
+          {
+            "case_type_three": "产品（服务）质量纠纷",
+            "count": 54,
+            "case_type_one": "公司经营",
+            "percent": 2.31
+          },
+          {
+            "case_type_three": "人力纠纷",
+            "count": 191,
+            "case_type_one": "公司治理",
+            "percent": 8.17
+          },
+          {
+            "case_type_three": "供应商纠纷",
+            "count": 264,
+            "case_type_one": "公司经营",
+            "percent": 11.29
+          },
+          {
+            "case_type_three": "债务违约风险",
+            "count": 331,
+            "case_type_one": "公司财务",
+            "percent": 14.15
+          },
+          {
+            "case_type_three": "债权回收风险",
+            "count": 32,
+            "case_type_one": "公司财务",
+            "percent": 1.37
+          },
+          {
+            "case_type_three": "品牌风险",
+            "count": 1,
+            "case_type_one": "公司经营",
+            "percent": 0.04
+          },
+          {
+            "case_type_three": "安全事故",
+            "count": 34,
+            "case_type_one": "公司治理",
+            "percent": 1.45
+          },
+          {
+            "case_type_three": "对外担保",
+            "count": 5,
+            "case_type_one": "公司财务",
+            "percent": 0.21
+          },
+          {
+            "case_type_three": "应收账款风险",
+            "count": 1306,
+            "case_type_one": "公司财务",
+            "percent": 55.84
+          },
+          {
+            "case_type_three": "知识产权纠纷",
+            "count": 3,
+            "case_type_one": "公司经营",
+            "percent": 0.13
+          },
+          {
+            "case_type_three": "破产",
+            "count": 1,
+            "case_type_one": "公司经营",
+            "percent": 0.04
+          },
+          {
+            "case_type_three": "管理不当",
+            "count": 29,
+            "case_type_one": "公司经营",
+            "percent": 1.24
+          },
+          {
+            "case_type_three": "股东权益纠纷",
+            "count": 4,
+            "case_type_one": "公司治理",
+            "percent": 0.17
+          }
+        ]
+      },
+      "group_by_jaay": [
+        {
+          "c_jaay": "买卖合同纠纷",
+          "percent": 17.88
+        },
+        {
+          "c_jaay": "合同纠纷",
+          "percent": 1.76
+        },
+        {
+          "c_jaay": "劳动争议",
+          "percent": 1.11
+        },
+        {
+          "c_jaay": "借款合同纠纷",
+          "percent": 0.74
+        },
+        {
+          "c_jaay": "承揽合同纠纷",
+          "percent": 0.7
+        },
+        {
+          "c_jaay": "劳务合同纠纷",
+          "percent": 0.67
+        },
+        {
+          "c_jaay": "租赁合同纠纷",
+          "percent": 0.6
+        },
+        {
+          "c_jaay": "建设工程合同纠纷",
+          "percent": 0.53
+        },
+        {
+          "c_jaay": "票据纠纷",
+          "percent": 0.46
+        },
+        {
+          "c_jaay": "运输合同纠纷",
+          "percent": 0.44
+        }
+      ]
+    },
+    {
+      "name": "交通运输",
+      "overall_risk": "近三年，交通运输行业涉诉案件总体呈现上升趋势，案件主要集中在广东、黑龙江地区；公司治理风险（40%）最为突出。从具体风险类型看，经营风险（22.95%）集中体现为管理不当（26.49%）、产品（服务）质量纠纷（24.88%）；财务风险（37.05%）集体中体现为债务违约风险（43.72%）、应收账款风险（41.43%）；治理风险集体中体现为安全事故（69.4%）、人力纠纷（27.98%）。从具体案由看，机动车交通事故责任纠纷（16.28%）占比最高；债权转让合同纠纷（同比增张1000%）增速最快，需重点关注可能由此引发的风险。",
+      "case_rating": {
+        "riskEnterpriseProportion": 7.191370355573312,
+        "caseCountYoY": 7969.0,
+        "average": 2,
+        "industrie": "交通运输",
+        "median": 3,
+        "ssdyList": [
+          {
+            "c_ssdy": "广东省",
+            "percent": 14.31
+          },
+          {
+            "c_ssdy": "山东省",
+            "percent": 9.32
+          }
+        ],
+        "ay": {
+          "@type": "java.util.HashMap",
+          "c_jaay": "机动车交通事故责任纠纷",
+          "percent": 12.09
+        },
+        "caseCount": 7665.0,
+        "caseType": [
+          {
+            "case_type_one": "公司治理",
+            "percent": 40.19
+          },
+          {
+            "case_type_one": "公司经营",
+            "percent": 22.25
+          },
+          {
+            "case_type_one": "公司财务",
+            "percent": 37.56
+          }
+        ]
+      },
+      "group_by_industry": {
+        "growthRate": [
+          {
+            "case_type_one": "公司治理",
+            "percent": 40.89
+          },
+          {
+            "case_type_one": "公司经营",
+            "percent": 21.98
+          },
+          {
+            "case_type_one": "公司财务",
+            "percent": 37.13
+          }
+        ],
+        "caseType": [
+          {
+            "case_type_three": "三方服务纠纷",
+            "count": 14,
+            "case_type_one": "公司经营",
+            "percent": 0.74
+          },
+          {
+            "case_type_three": "业务效率风险",
+            "count": 7,
+            "case_type_one": "公司经营",
+            "percent": 0.37
+          },
+          {
+            "case_type_three": "主营业务销售纠纷",
+            "count": 54,
+            "case_type_one": "公司经营",
+            "percent": 2.84
+          },
+          {
+            "case_type_three": "产品（服务）质量纠纷",
+            "count": 89,
+            "case_type_one": "公司经营",
+            "percent": 4.68
+          },
+          {
+            "case_type_three": "人力纠纷",
+            "count": 247,
+            "case_type_one": "公司治理",
+            "percent": 13.0
+          },
+          {
+            "case_type_three": "供应商纠纷",
+            "count": 81,
+            "case_type_one": "公司经营",
+            "percent": 4.26
+          },
+          {
+            "case_type_three": "债务违约风险",
+            "count": 381,
+            "case_type_one": "公司财务",
+            "percent": 20.05
+          },
+          {
+            "case_type_three": "债权回收风险",
+            "count": 52,
+            "case_type_one": "公司财务",
+            "percent": 2.74
+          },
+          {
+            "case_type_three": "多元投资纠纷",
+            "count": 2,
+            "case_type_one": "公司经营",
+            "percent": 0.11
+          },
+          {
+            "case_type_three": "安全事故",
+            "count": 515,
+            "case_type_one": "公司治理",
+            "percent": 27.11
+          },
+          {
+            "case_type_three": "对外担保",
+            "count": 15,
+            "case_type_one": "公司财务",
+            "percent": 0.79
+          },
+          {
+            "case_type_three": "应收账款风险",
+            "count": 304,
+            "case_type_one": "公司财务",
+            "percent": 16.0
+          },
+          {
+            "case_type_three": "知识产权纠纷",
+            "count": 4,
+            "case_type_one": "公司经营",
+            "percent": 0.21
+          },
+          {
+            "case_type_three": "管理不当",
+            "count": 127,
+            "case_type_one": "公司经营",
+            "percent": 6.68
+          },
+          {
+            "case_type_three": "股东权益纠纷",
+            "count": 5,
+            "case_type_one": "公司治理",
+            "percent": 0.26
+          },
+          {
+            "case_type_three": "行政处罚",
+            "count": 3,
+            "case_type_one": "公司治理",
+            "percent": 0.16
+          }
+        ]
+      },
+      "group_by_jaay": [
+        {
+          "c_jaay": "机动车交通事故责任纠纷",
+          "percent": 10.07
+        },
+        {
+          "c_jaay": "劳动争议",
+          "percent": 3.05
+        },
+        {
+          "c_jaay": "运输合同纠纷",
+          "percent": 2.39
+        },
+        {
+          "c_jaay": "买卖合同纠纷",
+          "percent": 2.33
+        },
+        {
+          "c_jaay": "合同纠纷",
+          "percent": 2.19
+        },
+        {
+          "c_jaay": "融资租赁合同纠纷",
+          "percent": 2.03
+        },
+        {
+          "c_jaay": "租赁合同纠纷",
+          "percent": 1.92
+        },
+        {
+          "c_jaay": "行政非诉执行",
+          "percent": 1.42
+        },
+        {
+          "c_jaay": "服务合同纠纷",
+          "percent": 1.2
+        },
+        {
+          "c_jaay": "追偿权纠纷",
+          "percent": 1.14
+        }
+      ]
+    },
+    {
+      "name": "煤炭",
+      "overall_risk": "近三年，煤炭行业涉诉案件总体呈现下降趋势，案件主要集中在云南、四川地区；公司治理风险（40.14%）最为突出。从具体风险类型看，经营风险（28.87%）集中体现为供应商纠纷（58.5%）、管理不当（24.87%）；财务风险（30.97%）集体中体现为债务违约风险（63.42%）、应收账款风险（31.03%）；治理风险（40.14%）集体中体现为人力纠纷（95.24%）、安全事故（2.62%）。从具体案由看，劳动争议（13.02%）占比最高；劳动争议、人事争议（同比增长115%）增速最快，需重点关注可能由此引发的风险。 ",
+      "case_rating": {
+        "riskEnterpriseProportion": 11.401568469736576,
+        "caseCountYoY": 8403.0,
+        "average": 2,
+        "industrie": "煤炭",
+        "median": 3,
+        "ssdyList": [
+          {
+            "c_ssdy": "内蒙古自治区",
+            "percent": 19.2
+          },
+          {
+            "c_ssdy": "山西省",
+            "percent": 12.91
+          }
+        ],
+        "ay": {
+          "@type": "java.util.HashMap",
+          "c_jaay": "买卖合同纠纷",
+          "percent": 12.47
+        },
+        "caseCount": 9259.0,
+        "caseType": [
+          {
+            "case_type_one": "公司治理",
+            "percent": 38.53
+          },
+          {
+            "case_type_one": "公司经营",
+            "percent": 30.35
+          },
+          {
+            "case_type_one": "公司财务",
+            "percent": 31.12
+          }
+        ]
+      },
+      "group_by_industry": {
+        "growthRate": [
+          {
+            "case_type_one": "公司治理",
+            "percent": 40.97
+          },
+          {
+            "case_type_one": "公司经营",
+            "percent": 26.56
+          },
+          {
+            "case_type_one": "公司财务",
+            "percent": 32.47
+          }
+        ],
+        "caseType": [
+          {
+            "case_type_three": "三方服务纠纷",
+            "count": 32,
+            "case_type_one": "公司经营",
+            "percent": 1.16
+          },
+          {
+            "case_type_three": "业务效率风险",
+            "count": 3,
+            "case_type_one": "公司经营",
+            "percent": 0.11
+          },
+          {
+            "case_type_three": "主营业务销售纠纷",
+            "count": 13,
+            "case_type_one": "公司经营",
+            "percent": 0.47
+          },
+          {
+            "case_type_three": "产品（服务）质量纠纷",
+            "count": 52,
+            "case_type_one": "公司经营",
+            "percent": 1.89
+          },
+          {
+            "case_type_three": "人力纠纷",
+            "count": 1000,
+            "case_type_one": "公司治理",
+            "percent": 36.36
+          },
+          {
+            "case_type_three": "供应商纠纷",
+            "count": 571,
+            "case_type_one": "公司经营",
+            "percent": 20.76
+          },
+          {
+            "case_type_three": "债务违约风险",
+            "count": 543,
+            "case_type_one": "公司财务",
+            "percent": 19.75
+          },
+          {
+            "case_type_three": "债权回收风险",
+            "count": 41,
+            "case_type_one": "公司财务",
+            "percent": 1.49
+          },
+          {
+            "case_type_three": "品牌风险",
+            "count": 3,
+            "case_type_one": "公司经营",
+            "percent": 0.11
+          },
+          {
+            "case_type_three": "安全事故",
+            "count": 47,
+            "case_type_one": "公司治理",
+            "percent": 1.71
+          },
+          {
+            "case_type_three": "对外担保",
+            "count": 5,
+            "case_type_one": "公司财务",
+            "percent": 0.18
+          },
+          {
+            "case_type_three": "应收账款风险",
+            "count": 274,
+            "case_type_one": "公司财务",
+            "percent": 9.96
+          },
+          {
+            "case_type_three": "知识产权纠纷",
+            "count": 2,
+            "case_type_one": "公司经营",
+            "percent": 0.07
+          },
+          {
+            "case_type_three": "管理不当",
+            "count": 146,
+            "case_type_one": "公司经营",
+            "percent": 5.31
+          },
+          {
+            "case_type_three": "股东权益纠纷",
+            "count": 18,
+            "case_type_one": "公司治理",
+            "percent": 0.65
+          }
+        ]
+      },
+      "group_by_jaay": [
+        {
+          "c_jaay": "买卖合同纠纷",
+          "percent": 11.52
+        },
+        {
+          "c_jaay": "劳动争议",
+          "percent": 9.51
+        },
+        {
+          "c_jaay": "确认劳动关系纠纷",
+          "percent": 5.11
+        },
+        {
+          "c_jaay": "合同纠纷",
+          "percent": 3.8
+        },
+        {
+          "c_jaay": "建设工程施工合同纠纷",
+          "percent": 1.88
+        },
+        {
+          "c_jaay": "借款合同纠纷",
+          "percent": 1.5
+        },
+        {
+          "c_jaay": "建设工程合同纠纷",
+          "percent": 1.31
+        },
+        {
+          "c_jaay": "运输合同纠纷",
+          "percent": 0.91
+        },
+        {
+          "c_jaay": "工伤保险待遇纠纷",
+          "percent": 0.87
+        },
+        {
+          "c_jaay": "民间借贷纠纷",
+          "percent": 0.84
+        }
+      ]
+    },
+    {
+      "name": "美容护理",
+      "overall_risk": "近三年，美容护理行业涉诉案件总体呈平稳趋势，案件主要集中在广东、湖南地区；公司经营风险（88.23%）最为突出。从具体风险类型看，经营风险（88.23%）集中体现为知识产权纠纷（98.24%）；财务风险（2.54%）集体中体现为应收账款风险（55.12%）、债务违约风险（44.09%）；治理风险（9.23%）集体中体现为商业欺诈（93.72%）。从具体案由看，侵害商标权纠纷（59.89%）占比最高；借款合同纠纷（同比增长21%）增速最快，需重点关注可能由此引发的风险。",
+      "case_rating": {
+        "riskEnterpriseProportion": 10.0,
+        "caseCountYoY": 5241.0,
+        "average": 152,
+        "industrie": "美容护理",
+        "median": 9,
+        "ssdyList": [
+          {
+            "c_ssdy": "广东省",
+            "percent": 23.53
+          },
+          {
+            "c_ssdy": "河北省",
+            "percent": 8.71
+          }
+        ],
+        "ay": {
+          "@type": "java.util.HashMap",
+          "c_jaay": "侵害商标权纠纷",
+          "percent": 47.75
+        },
+        "caseCount": 4547.0,
+        "caseType": [
+          {
+            "case_type_one": "公司治理",
+            "percent": 15.02
+          },
+          {
+            "case_type_one": "公司经营",
+            "percent": 83.48
+          },
+          {
+            "case_type_one": "公司财务",
+            "percent": 1.5
+          }
+        ]
+      },
+      "group_by_industry": {
+        "growthRate": [
+          {
+            "case_type_one": "公司治理",
+            "percent": 29.94
+          },
+          {
+            "case_type_one": "公司经营",
+            "percent": 65.89
+          },
+          {
+            "case_type_one": "公司财务",
+            "percent": 4.17
+          }
+        ],
+        "caseType": [
+          {
+            "case_type_three": "产品（服务）质量纠纷",
+            "count": 1,
+            "case_type_one": "公司经营",
+            "percent": 0.11
+          },
+          {
+            "case_type_three": "人力纠纷",
+            "count": 12,
+            "case_type_one": "公司治理",
+            "percent": 1.36
+          },
+          {
+            "case_type_three": "供应商纠纷",
+            "count": 1,
+            "case_type_one": "公司经营",
+            "percent": 0.11
+          },
+          {
+            "case_type_three": "债务违约风险",
+            "count": 7,
+            "case_type_one": "公司财务",
+            "percent": 0.79
+          },
+          {
+            "case_type_three": "品牌风险",
+            "count": 12,
+            "case_type_one": "公司经营",
+            "percent": 1.36
+          },
+          {
+            "case_type_three": "商业欺诈",
+            "count": 30,
+            "case_type_one": "公司治理",
+            "percent": 3.39
+          },
+          {
+            "case_type_three": "应收账款风险",
+            "count": 31,
+            "case_type_one": "公司财务",
+            "percent": 3.5
+          },
+          {
+            "case_type_three": "知识产权纠纷",
+            "count": 786,
+            "case_type_one": "公司经营",
+            "percent": 88.81
+          },
+          {
+            "case_type_three": "管理不当",
+            "count": 3,
+            "case_type_one": "公司经营",
+            "percent": 0.34
+          },
+          {
+            "case_type_three": "股东权益纠纷",
+            "count": 2,
+            "case_type_one": "公司治理",
+            "percent": 0.23
+          }
+        ]
+      },
+      "group_by_jaay": [
+        {
+          "c_jaay": "侵害商标权纠纷",
+          "percent": 18.03
+        },
+        {
+          "c_jaay": "知识产权权属、侵权纠纷",
+          "percent": 15.39
+        },
+        {
+          "c_jaay": "不正当竞争纠纷",
+          "percent": 3.58
+        },
+        {
+          "c_jaay": "商标权权属、侵权纠纷",
+          "percent": 1.92
+        },
+        {
+          "c_jaay": "证券虚假陈述责任纠纷",
+          "percent": 1.55
+        },
+        {
+          "c_jaay": "侵权",
+          "percent": 0.78
+        },
+        {
+          "c_jaay": "知识产权与竞争",
+          "percent": 0.73
+        },
+        {
+          "c_jaay": "合同纠纷",
+          "percent": 0.67
+        },
+        {
+          "c_jaay": "侵权责任纠纷",
+          "percent": 0.62
+        },
+        {
+          "c_jaay": "劳动争议",
+          "percent": 0.52
+        }
+      ]
+    },
+    {
+      "name": "农林牧渔",
+      "overall_risk": "近三年，农林牧渔行业涉诉案件总体呈现上升趋势，案件主要集中在上海、海南地区；公司财务风险（45.28%）最为突出。从具体风险类型看，经营风险（42.75%）集中体现为供应商纠纷（63.86%）、管理不当（13.94%）；财务风险（45.28%）集体中体现为债务违约风险（57.86%）、应收账款风险（38.16%）；治理风险（11.95%）集体中体现为人力纠纷（80.08%）、安全事故（11.72%）。从具体案由看，买卖合同纠纷（13.15%）占比最高；劳动争议（同比增长74%）增速最快，需重点关注可能由此引发的风险。",
+      "case_rating": {
+        "riskEnterpriseProportion": 8.259760643515794,
+        "caseCountYoY": 5029.0,
+        "average": 1,
+        "industrie": "农林牧渔",
+        "median": 1,
+        "ssdyList": [
+          {
+            "c_ssdy": "上海市",
+            "percent": 26.31
+          },
+          {
+            "c_ssdy": "海南省",
+            "percent": 8.81
+          }
+        ],
+        "ay": {
+          "@type": "java.util.HashMap",
+          "c_jaay": "买卖合同纠纷",
+          "percent": 11.11
+        },
+        "caseCount": 4618.0,
+        "caseType": [
+          {
+            "case_type_one": "公司治理",
+            "percent": 14.51
+          },
+          {
+            "case_type_one": "公司经营",
+            "percent": 41.17
+          },
+          {
+            "case_type_one": "公司财务",
+            "percent": 44.32
+          }
+        ]
+      },
+      "group_by_industry": {
+        "growthRate": [
+          {
+            "case_type_one": "公司治理",
+            "percent": 13.17
+          },
+          {
+            "case_type_one": "公司经营",
+            "percent": 38.04
+          },
+          {
+            "case_type_one": "公司财务",
+            "percent": 48.79
+          }
+        ],
+        "caseType": [
+          {
+            "case_type_three": "三方服务纠纷",
+            "count": 6,
+            "case_type_one": "公司经营",
+            "percent": 0.67
+          },
+          {
+            "case_type_three": "业务效率风险",
+            "count": 2,
+            "case_type_one": "公司经营",
+            "percent": 0.22
+          },
+          {
+            "case_type_three": "主营业务销售纠纷",
+            "count": 14,
+            "case_type_one": "公司经营",
+            "percent": 1.57
+          },
+          {
+            "case_type_three": "产品（服务）质量纠纷",
+            "count": 45,
+            "case_type_one": "公司经营",
+            "percent": 5.06
+          },
+          {
+            "case_type_three": "人力纠纷",
+            "count": 133,
+            "case_type_one": "公司治理",
+            "percent": 14.96
+          },
+          {
+            "case_type_three": "供应商纠纷",
+            "count": 224,
+            "case_type_one": "公司经营",
+            "percent": 25.2
+          },
+          {
+            "case_type_three": "债务违约风险",
+            "count": 186,
+            "case_type_one": "公司财务",
+            "percent": 20.92
+          },
+          {
+            "case_type_three": "债权回收风险",
+            "count": 8,
+            "case_type_one": "公司财务",
+            "percent": 0.9
+          },
+          {
+            "case_type_three": "多元投资纠纷",
+            "count": 1,
+            "case_type_one": "公司经营",
+            "percent": 0.11
+          },
+          {
+            "case_type_three": "安全事故",
+            "count": 19,
+            "case_type_one": "公司治理",
+            "percent": 2.14
+          },
+          {
+            "case_type_three": "对外担保",
+            "count": 1,
+            "case_type_one": "公司财务",
+            "percent": 0.11
+          },
+          {
+            "case_type_three": "应收账款风险",
+            "count": 188,
+            "case_type_one": "公司财务",
+            "percent": 21.15
+          },
+          {
+            "case_type_three": "知识产权纠纷",
+            "count": 17,
+            "case_type_one": "公司经营",
+            "percent": 1.91
+          },
+          {
+            "case_type_three": "管理不当",
+            "count": 35,
+            "case_type_one": "公司经营",
+            "percent": 3.94
+          },
+          {
+            "case_type_three": "股东权益纠纷",
+            "count": 7,
+            "case_type_one": "公司治理",
+            "percent": 0.79
+          },
+          {
+            "case_type_three": "行政处罚",
+            "count": 2,
+            "case_type_one": "公司治理",
+            "percent": 0.22
+          },
+          {
+            "case_type_three": "金融资产风险",
+            "count": 1,
+            "case_type_one": "公司财务",
+            "percent": 0.11
+          }
+        ]
+      },
+      "group_by_jaay": [
+        {
+          "c_jaay": "买卖合同纠纷",
+          "percent": 8.29
+        },
+        {
+          "c_jaay": "合同纠纷",
+          "percent": 3.62
+        },
+        {
+          "c_jaay": "借款合同纠纷",
+          "percent": 2.19
+        },
+        {
+          "c_jaay": "劳动争议",
+          "percent": 1.81
+        },
+        {
+          "c_jaay": "劳务合同纠纷",
+          "percent": 1.71
+        },
+        {
+          "c_jaay": "民间借贷纠纷",
+          "percent": 1.32
+        },
+        {
+          "c_jaay": "金融借款合同纠纷",
+          "percent": 1.29
+        },
+        {
+          "c_jaay": "建设工程施工合同纠纷",
+          "percent": 1.04
+        },
+        {
+          "c_jaay": "租赁合同纠纷",
+          "percent": 1.04
+        },
+        {
+          "c_jaay": "建设工程合同纠纷",
+          "percent": 0.98
+        }
+      ]
+    },
+    {
+      "name": "轻工制造",
+      "overall_risk": "近三年，轻工制造行业涉诉案件总体呈现上升趋势，案件主要集中在广东、上海地区；公司财务风险（46.89%）最为突出。从具体风险类型看，经营风险（36.73%）集中体现为供应商纠纷（38.71%）、知识产权纠纷（37.08%）；财务风险（46.89%）集体中体现为应收账款风险（62.81%）、债务违约风险（36.11%）；治理风险（16.37%）集体中体现为人力纠纷（90.47%）、股东权益纠纷（4.7%）。从具体案由看，买卖合同纠纷（21.8%）占比最高；侵害作品信息网络传播权纠纷（同比增长100%）增速最快，需重点关注可能由此引发的风险。 ",
+      "case_rating": {
+        "riskEnterpriseProportion": 6.829561385940316,
+        "caseCountYoY": 5503.0,
+        "average": 1,
+        "industrie": "轻工制造",
+        "median": 3,
+        "ssdyList": [
+          {
+            "c_ssdy": "广东省",
+            "percent": 25.97
+          },
+          {
+            "c_ssdy": "上海市",
+            "percent": 9.49
+          }
+        ],
+        "ay": {
+          "@type": "java.util.HashMap",
+          "c_jaay": "买卖合同纠纷",
+          "percent": 17.88
+        },
+        "caseCount": 5868.0,
+        "caseType": [
+          {
+            "case_type_one": "公司治理",
+            "percent": 14.23
+          },
+          {
+            "case_type_one": "公司经营",
+            "percent": 41.0
+          },
+          {
+            "case_type_one": "公司财务",
+            "percent": 44.78
+          }
+        ]
+      },
+      "group_by_industry": {
+        "growthRate": [
+          {
+            "case_type_one": "公司治理",
+            "percent": 14.65
+          },
+          {
+            "case_type_one": "公司经营",
+            "percent": 38.55
+          },
+          {
+            "case_type_one": "公司财务",
+            "percent": 46.8
+          }
+        ],
+        "caseType": [
+          {
+            "case_type_three": "三方服务纠纷",
+            "count": 10,
+            "case_type_one": "公司经营",
+            "percent": 0.72
+          },
+          {
+            "case_type_three": "业务效率风险",
+            "count": 1,
+            "case_type_one": "公司经营",
+            "percent": 0.07
+          },
+          {
+            "case_type_three": "主营业务销售纠纷",
+            "count": 19,
+            "case_type_one": "公司经营",
+            "percent": 1.37
+          },
+          {
+            "case_type_three": "产品（服务）质量纠纷",
+            "count": 87,
+            "case_type_one": "公司经营",
+            "percent": 6.28
+          },
+          {
+            "case_type_three": "人力纠纷",
+            "count": 153,
+            "case_type_one": "公司治理",
+            "percent": 11.05
+          },
+          {
+            "case_type_three": "供应商纠纷",
+            "count": 184,
+            "case_type_one": "公司经营",
+            "percent": 13.29
+          },
+          {
+            "case_type_three": "债务违约风险",
+            "count": 244,
+            "case_type_one": "公司财务",
+            "percent": 17.62
+          },
+          {
+            "case_type_three": "债权回收风险",
+            "count": 5,
+            "case_type_one": "公司财务",
+            "percent": 0.36
+          },
+          {
+            "case_type_three": "品牌风险",
+            "count": 6,
+            "case_type_one": "公司经营",
+            "percent": 0.43
+          },
+          {
+            "case_type_three": "安全事故",
+            "count": 7,
+            "case_type_one": "公司治理",
+            "percent": 0.51
+          },
+          {
+            "case_type_three": "对外担保",
+            "count": 1,
+            "case_type_one": "公司财务",
+            "percent": 0.07
+          },
+          {
+            "case_type_three": "应收账款风险",
+            "count": 388,
+            "case_type_one": "公司财务",
+            "percent": 28.01
+          },
+          {
+            "case_type_three": "知识产权纠纷",
+            "count": 241,
+            "case_type_one": "公司经营",
+            "percent": 17.4
+          },
+          {
+            "case_type_three": "管理不当",
+            "count": 28,
+            "case_type_one": "公司经营",
+            "percent": 2.02
+          },
+          {
+            "case_type_three": "股东权益纠纷",
+            "count": 9,
+            "case_type_one": "公司治理",
+            "percent": 0.65
+          },
+          {
+            "case_type_three": "金融资产风险",
+            "count": 2,
+            "case_type_one": "公司财务",
+            "percent": 0.14
+          }
+        ]
+      },
+      "group_by_jaay": [
+        {
+          "c_jaay": "买卖合同纠纷",
+          "percent": 13.03
+        },
+        {
+          "c_jaay": "劳动争议",
+          "percent": 2.16
+        },
+        {
+          "c_jaay": "著作权权属、侵权纠纷",
+          "percent": 2.16
+        },
+        {
+          "c_jaay": "合同纠纷",
+          "percent": 1.53
+        },
+        {
+          "c_jaay": "侵害商标权纠纷",
+          "percent": 1.39
+        },
+        {
+          "c_jaay": "承揽合同纠纷",
+          "percent": 1.25
+        },
+        {
+          "c_jaay": "借款合同纠纷",
+          "percent": 1.01
+        },
+        {
+          "c_jaay": "信息网络买卖合同纠纷",
+          "percent": 0.96
+        },
+        {
+          "c_jaay": "侵害作品发行权纠纷",
+          "percent": 0.91
+        },
+        {
+          "c_jaay": "知识产权权属、侵权纠纷",
+          "percent": 0.89
+        }
+      ]
+    },
+    {
+      "name": "商贸零售",
+      "overall_risk": "近三年，商贸零售行业涉诉案件总体呈现上升趋势，案件主要集中在重庆、海南地区；公司财务风险（46.87%）最为突出。从具体风险类型看，经营风险（24.39%）集中体现三方服务纠纷（40.88%）、供应商纠纷（17.1%）；财务风险（46.87%）集体中体现为应收账款风险（60.44%）、债务违约风险（20.23%）；治理风险（28.73%）集体中体现为安全事故（91.65%）。从具体案由看，保证保险合同纠纷（16.29%）占比最高；租赁合同纠纷（同比增长65.44%）增速最快，需重点关注可能由此引发的风险。 ",
+      "case_rating": {
+        "riskEnterpriseProportion": 3.633114949374628,
+        "caseCountYoY": 16074.0,
+        "average": 2,
+        "industrie": "商贸零售",
+        "median": 1,
+        "ssdyList": [
+          {
+            "c_ssdy": "广东省",
+            "percent": 9.61
+          },
+          {
+            "c_ssdy": "辽宁省",
+            "percent": 7.76
+          }
+        ],
+        "ay": {
+          "@type": "java.util.HashMap",
+          "c_jaay": "买卖合同纠纷",
+          "percent": 11.27
+        },
+        "caseCount": 10786.0,
+        "caseType": [
+          {
+            "case_type_one": "公司治理",
+            "percent": 33.57
+          },
+          {
+            "case_type_one": "公司经营",
+            "percent": 20.34
+          },
+          {
+            "case_type_one": "公司财务",
+            "percent": 46.09
+          }
+        ]
+      },
+      "group_by_industry": {
+        "growthRate": [
+          {
+            "case_type_one": "公司治理",
+            "percent": 35.47
+          },
+          {
+            "case_type_one": "公司经营",
+            "percent": 19.13
+          },
+          {
+            "case_type_one": "公司财务",
+            "percent": 45.4
+          }
+        ],
+        "caseType": [
+          {
+            "case_type_three": "三方服务纠纷",
+            "count": 22,
+            "case_type_one": "公司经营",
+            "percent": 1.28
+          },
+          {
+            "case_type_three": "业务效率风险",
+            "count": 3,
+            "case_type_one": "公司经营",
+            "percent": 0.17
+          },
+          {
+            "case_type_three": "主营业务销售纠纷",
+            "count": 1,
+            "case_type_one": "公司经营",
+            "percent": 0.06
+          },
+          {
+            "case_type_three": "产品（服务）质量纠纷",
+            "count": 27,
+            "case_type_one": "公司经营",
+            "percent": 1.57
+          },
+          {
+            "case_type_three": "人力纠纷",
+            "count": 58,
+            "case_type_one": "公司治理",
+            "percent": 3.37
+          },
+          {
+            "case_type_three": "供应商纠纷",
+            "count": 96,
+            "case_type_one": "公司经营",
+            "percent": 5.58
+          },
+          {
+            "case_type_three": "债务违约风险",
+            "count": 196,
+            "case_type_one": "公司财务",
+            "percent": 11.4
+          },
+          {
+            "case_type_three": "债权回收风险",
+            "count": 22,
+            "case_type_one": "公司财务",
+            "percent": 1.28
+          },
+          {
+            "case_type_three": "多元投资纠纷",
+            "count": 2,
+            "case_type_one": "公司经营",
+            "percent": 0.12
+          },
+          {
+            "case_type_three": "安全事故",
+            "count": 216,
+            "case_type_one": "公司治理",
+            "percent": 12.56
+          },
+          {
+            "case_type_three": "对外担保",
+            "count": 2,
+            "case_type_one": "公司财务",
+            "percent": 0.12
+          },
+          {
+            "case_type_three": "应收账款风险",
+            "count": 635,
+            "case_type_one": "公司财务",
+            "percent": 36.92
+          },
+          {
+            "case_type_three": "知识产权纠纷",
+            "count": 67,
+            "case_type_one": "公司经营",
+            "percent": 3.9
+          },
+          {
+            "case_type_three": "管理不当",
+            "count": 372,
+            "case_type_one": "公司经营",
+            "percent": 21.63
+          },
+          {
+            "case_type_three": "股东权益纠纷",
+            "count": 1,
+            "case_type_one": "公司治理",
+            "percent": 0.06
+          }
+        ]
+      },
+      "group_by_jaay": [
+        {
+          "c_jaay": "买卖合同纠纷",
+          "percent": 11.46
+        },
+        {
+          "c_jaay": "财产损害赔偿纠纷",
+          "percent": 6.21
+        },
+        {
+          "c_jaay": "机动车交通事故责任纠纷",
+          "percent": 3.87
+        },
+        {
+          "c_jaay": "合同纠纷",
+          "percent": 2.0
+        },
+        {
+          "c_jaay": "保险纠纷",
+          "percent": 1.56
+        },
+        {
+          "c_jaay": "保证保险合同纠纷",
+          "percent": 1.24
+        },
+        {
+          "c_jaay": "追偿权纠纷",
+          "percent": 0.89
+        },
+        {
+          "c_jaay": "租赁合同纠纷",
+          "percent": 0.8
+        },
+        {
+          "c_jaay": "劳动争议",
+          "percent": 0.74
+        },
+        {
+          "c_jaay": "借款合同纠纷",
+          "percent": 0.67
+        }
+      ]
+    },
+    {
+      "name": "社会服务",
+      "overall_risk": "近三年，社会服务行业涉诉案件总体呈现下降趋势，案件主要集中在广东、海南地区；公司经营风险（55.55%）最为突出。从具体风险类型看，经营风险（55.55%）集中体现为知识产权纠纷（49.41%）、供应商纠纷（22.97%）；财务风险（31.54%）集体中体现为应收账款风险（43.53%）、债务违约风险（31.74%）；治理风险（12.91%）集体中体现为人力纠纷（79.01%）、安全事故（16.89%）。从具体案由看，著作权权属、侵权纠纷（10.91%）占比最高；教育培训合同纠纷（同比增长202%）增速最快，需重点关注可能由此引发的风险。",
+      "case_rating": {
+        "riskEnterpriseProportion": 6.247536460386283,
+        "caseCountYoY": 12859.0,
+        "average": 2,
+        "industrie": "社会服务",
+        "median": 3,
+        "ssdyList": [
+          {
+            "c_ssdy": "上海市",
+            "percent": 16.54
+          },
+          {
+            "c_ssdy": "广东省",
+            "percent": 12.96
+          }
+        ],
+        "ay": {
+          "@type": "java.util.HashMap",
+          "c_jaay": "著作权权属、侵权纠纷",
+          "percent": 7.6
+        },
+        "caseCount": 10856.0,
+        "caseType": [
+          {
+            "case_type_one": "公司治理",
+            "percent": 15.81
+          },
+          {
+            "case_type_one": "公司经营",
+            "percent": 54.06
+          },
+          {
+            "case_type_one": "公司财务",
+            "percent": 30.13
+          }
+        ]
+      },
+      "group_by_industry": {
+        "growthRate": [
+          {
+            "case_type_one": "公司治理",
+            "percent": 15.24
+          },
+          {
+            "case_type_one": "公司经营",
+            "percent": 47.02
+          },
+          {
+            "case_type_one": "公司财务",
+            "percent": 37.74
+          }
+        ],
+        "caseType": [
+          {
+            "case_type_three": "三方服务纠纷",
+            "count": 83,
+            "case_type_one": "公司经营",
+            "percent": 4.2
+          },
+          {
+            "case_type_three": "主营业务销售纠纷",
+            "count": 97,
+            "case_type_one": "公司经营",
+            "percent": 4.91
+          },
+          {
+            "case_type_three": "产品（服务）质量纠纷",
+            "count": 5,
+            "case_type_one": "公司经营",
+            "percent": 0.25
+          },
+          {
+            "case_type_three": "人力纠纷",
+            "count": 421,
+            "case_type_one": "公司治理",
+            "percent": 21.31
+          },
+          {
+            "case_type_three": "供应商纠纷",
+            "count": 293,
+            "case_type_one": "公司经营",
+            "percent": 14.83
+          },
+          {
+            "case_type_three": "债务违约风险",
+            "count": 341,
+            "case_type_one": "公司财务",
+            "percent": 17.26
+          },
+          {
+            "case_type_three": "债权回收风险",
+            "count": 77,
+            "case_type_one": "公司财务",
+            "percent": 3.9
+          },
+          {
+            "case_type_three": "关联业务纠纷",
+            "count": 1,
+            "case_type_one": "公司经营",
+            "percent": 0.05
+          },
+          {
+            "case_type_three": "品牌风险",
+            "count": 1,
+            "case_type_one": "公司经营",
+            "percent": 0.05
+          },
+          {
+            "case_type_three": "安全事故",
+            "count": 36,
+            "case_type_one": "公司治理",
+            "percent": 1.82
+          },
+          {
+            "case_type_three": "对外担保",
+            "count": 4,
+            "case_type_one": "公司财务",
+            "percent": 0.2
+          },
+          {
+            "case_type_three": "应收账款风险",
+            "count": 335,
+            "case_type_one": "公司财务",
+            "percent": 16.95
+          },
+          {
+            "case_type_three": "知识产权纠纷",
+            "count": 226,
+            "case_type_one": "公司经营",
+            "percent": 11.44
+          },
+          {
+            "case_type_three": "管理不当",
+            "count": 39,
+            "case_type_one": "公司经营",
+            "percent": 1.97
+          },
+          {
+            "case_type_three": "股东权益纠纷",
+            "count": 17,
+            "case_type_one": "公司治理",
+            "percent": 0.86
+          }
+        ]
+      },
+      "group_by_jaay": [
+        {
+          "c_jaay": "劳动争议",
+          "percent": 4.23
+        },
+        {
+          "c_jaay": "买卖合同纠纷",
+          "percent": 3.76
+        },
+        {
+          "c_jaay": "租赁合同纠纷",
+          "percent": 2.59
+        },
+        {
+          "c_jaay": "服务合同纠纷",
+          "percent": 2.43
+        },
+        {
+          "c_jaay": "合同纠纷",
+          "percent": 2.4
+        },
+        {
+          "c_jaay": "知识产权权属、侵权纠纷",
+          "percent": 1.79
+        },
+        {
+          "c_jaay": "著作权权属、侵权纠纷",
+          "percent": 1.2
+        },
+        {
+          "c_jaay": "借款合同纠纷",
+          "percent": 1.14
+        },
+        {
+          "c_jaay": "建筑设备租赁合同纠纷",
+          "percent": 1.08
+        },
+        {
+          "c_jaay": "劳务合同纠纷",
+          "percent": 1.05
+        }
+      ]
+    },
+    {
+      "name": "石油石化",
+      "overall_risk": "近三年，石油石化行业涉诉案件总体呈现上升趋势，案件主要集中在山东、广东地区；公司财务风险（45.08%）最为突出。从具体风险类型看，经营风险（38.9%）集中体现为供应商纠纷（54.06%）、产品（服务）质量纠纷（15.14%）；财务风险（45.08%）集体中体现为债务违约风险（54.48%）、应收账款风险（42.13%）；治理风险（16%）集体中体现为人力纠纷（82.5%）、安全事故（12.75%）。从具体案由看，买卖合同纠纷（15.94%）占比最高；侵权责任纠纷（同比增长579%）增速最快，需重点关注可能由此引发的风险。",
+      "case_rating": {
+        "riskEnterpriseProportion": 9.292481354565611,
+        "caseCountYoY": 7825.0,
+        "average": 2,
+        "industrie": "石油石化",
+        "median": 2,
+        "ssdyList": [
+          {
+            "c_ssdy": "山东省",
+            "percent": 18.07
+          },
+          {
+            "c_ssdy": "广东省",
+            "percent": 7.61
+          }
+        ],
+        "ay": {
+          "@type": "java.util.HashMap",
+          "c_jaay": "买卖合同纠纷",
+          "percent": 14.67
+        },
+        "caseCount": 8085.0,
+        "caseType": [
+          {
+            "case_type_one": "公司治理",
+            "percent": 16.82
+          },
+          {
+            "case_type_one": "公司经营",
+            "percent": 43.48
+          },
+          {
+            "case_type_one": "公司财务",
+            "percent": 39.7
+          }
+        ]
+      },
+      "group_by_industry": {
+        "growthRate": [
+          {
+            "case_type_one": "公司治理",
+            "percent": 16.64
+          },
+          {
+            "case_type_one": "公司经营",
+            "percent": 36.17
+          },
+          {
+            "case_type_one": "公司财务",
+            "percent": 47.19
+          }
+        ],
+        "caseType": [
+          {
+            "case_type_three": "三方服务纠纷",
+            "count": 16,
+            "case_type_one": "公司经营",
+            "percent": 0.91
+          },
+          {
+            "case_type_three": "业务效率风险",
+            "count": 3,
+            "case_type_one": "公司经营",
+            "percent": 0.17
+          },
+          {
+            "case_type_three": "主营业务销售纠纷",
+            "count": 20,
+            "case_type_one": "公司经营",
+            "percent": 1.14
+          },
+          {
+            "case_type_three": "产品（服务）质量纠纷",
+            "count": 28,
+            "case_type_one": "公司经营",
+            "percent": 1.6
+          },
+          {
+            "case_type_three": "人力纠纷",
+            "count": 243,
+            "case_type_one": "公司治理",
+            "percent": 13.88
+          },
+          {
+            "case_type_three": "供应商纠纷",
+            "count": 347,
+            "case_type_one": "公司经营",
+            "percent": 19.82
+          },
+          {
+            "case_type_three": "债务违约风险",
+            "count": 488,
+            "case_type_one": "公司财务",
+            "percent": 27.87
+          },
+          {
+            "case_type_three": "债权回收风险",
+            "count": 21,
+            "case_type_one": "公司财务",
+            "percent": 1.2
+          },
+          {
+            "case_type_three": "关联业务纠纷",
+            "count": 1,
+            "case_type_one": "公司经营",
+            "percent": 0.06
+          },
+          {
+            "case_type_three": "安全事故",
+            "count": 46,
+            "case_type_one": "公司治理",
+            "percent": 2.63
+          },
+          {
+            "case_type_three": "应收账款风险",
+            "count": 412,
+            "case_type_one": "公司财务",
+            "percent": 23.53
+          },
+          {
+            "case_type_three": "知识产权纠纷",
+            "count": 50,
+            "case_type_one": "公司经营",
+            "percent": 2.86
+          },
+          {
+            "case_type_three": "管理不当",
+            "count": 66,
+            "case_type_one": "公司经营",
+            "percent": 3.77
+          },
+          {
+            "case_type_three": "股东权益纠纷",
+            "count": 9,
+            "case_type_one": "公司治理",
+            "percent": 0.51
+          },
+          {
+            "case_type_three": "行政处罚",
+            "count": 1,
+            "case_type_one": "公司治理",
+            "percent": 0.06
+          }
+        ]
+      },
+      "group_by_jaay": [
+        {
+          "c_jaay": "买卖合同纠纷",
+          "percent": 10.3
+        },
+        {
+          "c_jaay": "劳动争议",
+          "percent": 2.84
+        },
+        {
+          "c_jaay": "合同纠纷",
+          "percent": 2.34
+        },
+        {
+          "c_jaay": "借款合同纠纷",
+          "percent": 2.05
+        },
+        {
+          "c_jaay": "金融借款合同纠纷",
+          "percent": 1.59
+        },
+        {
+          "c_jaay": "建设工程施工合同纠纷",
+          "percent": 1.23
+        },
+        {
+          "c_jaay": "民间借贷纠纷",
+          "percent": 0.91
+        },
+        {
+          "c_jaay": "租赁合同纠纷",
+          "percent": 0.83
+        },
+        {
+          "c_jaay": "建设工程合同纠纷",
+          "percent": 0.81
+        },
+        {
+          "c_jaay": "劳动合同纠纷",
+          "percent": 0.69
+        }
+      ]
+    },
+    {
+      "name": "通信",
+      "overall_risk": "近三年，通信行业涉诉案件总体呈现上升趋势，案件主要集中在广东、江苏地区；公司经营风险（68.14%）最为突出。从具体风险类型看，经营风险（68.14%）集中体现为三方服务纠纷（57.79%）、供应商纠纷（20.94%）；财务风险（20.33%）集体中体现为应收账款风险（61.94%）、债务违约风险（35.12%）；治理风险（11.53%）集体中体现为人力纠纷（87.42%）、安全事故（10.06%）。从具体案由看，电信服务合同纠纷（27.11%）占比最高；不当得利纠纷（同比增长73%）增速最快，需重点关注可能由此引发的风险。 ",
+      "case_rating": {
+        "riskEnterpriseProportion": 5.5890631282669885,
+        "caseCountYoY": 14677.0,
+        "average": 3,
+        "industrie": "通信",
+        "median": 3,
+        "ssdyList": [
+          {
+            "c_ssdy": "上海市",
+            "percent": 36.04
+          },
+          {
+            "c_ssdy": "广东省",
+            "percent": 17.39
+          }
+        ],
+        "ay": {
+          "@type": "java.util.HashMap",
+          "c_jaay": "电信服务合同纠纷",
+          "percent": 31.96
+        },
+        "caseCount": 12529.0,
+        "caseType": [
+          {
+            "case_type_one": "公司治理",
+            "percent": 9.07
+          },
+          {
+            "case_type_one": "公司经营",
+            "percent": 73.32
+          },
+          {
+            "case_type_one": "公司财务",
+            "percent": 17.61
+          }
+        ]
+      },
+      "group_by_industry": {
+        "growthRate": [
+          {
+            "case_type_one": "公司治理",
+            "percent": 8.51
+          },
+          {
+            "case_type_one": "公司经营",
+            "percent": 76.93
+          },
+          {
+            "case_type_one": "公司财务",
+            "percent": 14.55
+          }
+        ],
+        "caseType": [
+          {
+            "case_type_three": "三方服务纠纷",
+            "count": 398,
+            "case_type_one": "公司经营",
+            "percent": 17.69
+          },
+          {
+            "case_type_three": "业务效率风险",
+            "count": 3,
+            "case_type_one": "公司经营",
+            "percent": 0.13
+          },
+          {
+            "case_type_three": "主营业务销售纠纷",
+            "count": 39,
+            "case_type_one": "公司经营",
+            "percent": 1.73
+          },
+          {
+            "case_type_three": "产品（服务）质量纠纷",
+            "count": 33,
+            "case_type_one": "公司经营",
+            "percent": 1.47
+          },
+          {
+            "case_type_three": "人力纠纷",
+            "count": 500,
+            "case_type_one": "公司治理",
+            "percent": 22.22
+          },
+          {
+            "case_type_three": "供应商纠纷",
+            "count": 450,
+            "case_type_one": "公司经营",
+            "percent": 20.0
+          },
+          {
+            "case_type_three": "债务违约风险",
+            "count": 307,
+            "case_type_one": "公司财务",
+            "percent": 13.64
+          },
+          {
+            "case_type_three": "债权回收风险",
+            "count": 16,
+            "case_type_one": "公司财务",
+            "percent": 0.71
+          },
+          {
+            "case_type_three": "品牌风险",
+            "count": 1,
+            "case_type_one": "公司经营",
+            "percent": 0.04
+          },
+          {
+            "case_type_three": "安全事故",
+            "count": 16,
+            "case_type_one": "公司治理",
+            "percent": 0.71
+          },
+          {
+            "case_type_three": "对外担保",
+            "count": 4,
+            "case_type_one": "公司财务",
+            "percent": 0.18
+          },
+          {
+            "case_type_three": "应收账款风险",
+            "count": 381,
+            "case_type_one": "公司财务",
+            "percent": 16.93
+          },
+          {
+            "case_type_three": "知识产权纠纷",
+            "count": 70,
+            "case_type_one": "公司经营",
+            "percent": 3.11
+          },
+          {
+            "case_type_three": "管理不当",
+            "count": 23,
+            "case_type_one": "公司经营",
+            "percent": 1.02
+          },
+          {
+            "case_type_three": "股东权益纠纷",
+            "count": 8,
+            "case_type_one": "公司治理",
+            "percent": 0.36
+          },
+          {
+            "case_type_three": "行政处罚",
+            "count": 1,
+            "case_type_one": "公司治理",
+            "percent": 0.04
+          }
+        ]
+      },
+      "group_by_jaay": [
+        {
+          "c_jaay": "劳动争议",
+          "percent": 6.62
+        },
+        {
+          "c_jaay": "买卖合同纠纷",
+          "percent": 6.18
+        },
+        {
+          "c_jaay": "电信服务合同纠纷",
+          "percent": 6.1
+        },
+        {
+          "c_jaay": "合同纠纷",
+          "percent": 3.16
+        },
+        {
+          "c_jaay": "建设工程施工合同纠纷",
+          "percent": 1.92
+        },
+        {
+          "c_jaay": "建设工程合同纠纷",
+          "percent": 1.8
+        },
+        {
+          "c_jaay": "租赁合同纠纷",
+          "percent": 1.24
+        },
+        {
+          "c_jaay": "承揽合同纠纷",
+          "percent": 1.01
+        },
+        {
+          "c_jaay": "服务合同纠纷",
+          "percent": 1.0
+        },
+        {
+          "c_jaay": "借款合同纠纷",
+          "percent": 0.74
+        }
+      ]
+    },
+    {
+      "name": "有色金属",
+      "overall_risk": "近三年，有色金属行业涉诉案件总体呈现上升趋势，案件主要集中在广东、云南地区；公司财务风险（48.87%）最为突出。从具体风险类型看，经营风险（27.05%）集中体现为供应商纠纷（68.17%）、管理不当（12.83%）；财务风险（48.87%）集体中体现为债务违约风险（48.8%）、应收账款风险（47.74%）；治理风险（24.09%）集体中体现为人力纠纷（82.52%）、商业欺诈（11.17%）。从具体案由看，买卖合同纠纷（17.28%）占比最高；普通破产债权确认纠纷（同比增长231%）增速最快，需重点关注可能由此引发的风险。",
+      "case_rating": {
+        "riskEnterpriseProportion": 8.762783236414679,
+        "caseCountYoY": 8722.0,
+        "average": 2,
+        "industrie": "有色金属",
+        "median": 2,
+        "ssdyList": [
+          {
+            "c_ssdy": "广东省",
+            "percent": 28.84
+          },
+          {
+            "c_ssdy": "云南省",
+            "percent": 9.93
+          }
+        ],
+        "ay": {
+          "@type": "java.util.HashMap",
+          "c_jaay": "买卖合同纠纷",
+          "percent": 16.53
+        },
+        "caseCount": 8264.0,
+        "caseType": [
+          {
+            "case_type_one": "公司治理",
+            "percent": 17.47
+          },
+          {
+            "case_type_one": "公司经营",
+            "percent": 30.52
+          },
+          {
+            "case_type_one": "公司财务",
+            "percent": 52.01
+          }
+        ]
+      },
+      "group_by_industry": {
+        "growthRate": [
+          {
+            "case_type_one": "公司治理",
+            "percent": 17.9
+          },
+          {
+            "case_type_one": "公司经营",
+            "percent": 28.41
+          },
+          {
+            "case_type_one": "公司财务",
+            "percent": 53.69
+          }
+        ],
+        "caseType": [
+          {
+            "case_type_three": "三方服务纠纷",
+            "count": 88,
+            "case_type_one": "公司经营",
+            "percent": 4.41
+          },
+          {
+            "case_type_three": "主营业务销售纠纷",
+            "count": 2,
+            "case_type_one": "公司经营",
+            "percent": 0.1
+          },
+          {
+            "case_type_three": "产品（服务）质量纠纷",
+            "count": 8,
+            "case_type_one": "公司经营",
+            "percent": 0.4
+          },
+          {
+            "case_type_three": "人力纠纷",
+            "count": 283,
+            "case_type_one": "公司治理",
+            "percent": 14.19
+          },
+          {
+            "case_type_three": "供应商纠纷",
+            "count": 339,
+            "case_type_one": "公司经营",
+            "percent": 16.99
+          },
+          {
+            "case_type_three": "债务违约风险",
+            "count": 442,
+            "case_type_one": "公司财务",
+            "percent": 22.16
+          },
+          {
+            "case_type_three": "债权回收风险",
+            "count": 47,
+            "case_type_one": "公司财务",
+            "percent": 2.36
+          },
+          {
+            "case_type_three": "商业欺诈",
+            "count": 4,
+            "case_type_one": "公司治理",
+            "percent": 0.2
+          },
+          {
+            "case_type_three": "安全事故",
+            "count": 19,
+            "case_type_one": "公司治理",
+            "percent": 0.95
+          },
+          {
+            "case_type_three": "对外担保",
+            "count": 3,
+            "case_type_one": "公司财务",
+            "percent": 0.15
+          },
+          {
+            "case_type_three": "应收账款风险",
+            "count": 670,
+            "case_type_one": "公司财务",
+            "percent": 33.58
+          },
+          {
+            "case_type_three": "知识产权纠纷",
+            "count": 5,
+            "case_type_one": "公司经营",
+            "percent": 0.25
+          },
+          {
+            "case_type_three": "管理不当",
+            "count": 66,
+            "case_type_one": "公司经营",
+            "percent": 3.31
+          },
+          {
+            "case_type_three": "股东权益纠纷",
+            "count": 19,
+            "case_type_one": "公司治理",
+            "percent": 0.95
+          }
+        ]
+      },
+      "group_by_jaay": [
+        {
+          "c_jaay": "买卖合同纠纷",
+          "percent": 12.02
+        },
+        {
+          "c_jaay": "劳动争议",
+          "percent": 2.28
+        },
+        {
+          "c_jaay": "承揽合同纠纷",
+          "percent": 1.86
+        },
+        {
+          "c_jaay": "合同纠纷",
+          "percent": 1.67
+        },
+        {
+          "c_jaay": "借款合同纠纷",
+          "percent": 1.58
+        },
+        {
+          "c_jaay": "建设工程施工合同纠纷",
+          "percent": 1.35
+        },
+        {
+          "c_jaay": "建设工程合同纠纷",
+          "percent": 0.87
+        },
+        {
+          "c_jaay": "民间借贷纠纷",
+          "percent": 0.81
+        },
+        {
+          "c_jaay": "劳务合同纠纷",
+          "percent": 0.71
+        },
+        {
+          "c_jaay": "普通破产债权确认纠纷",
+          "percent": 0.64
+        }
+      ]
+    },
+    {
+      "name": "综合",
+      "overall_risk": "近三年，综合行业涉诉案件总体呈现上升趋势，案件主要集中在北京、黑龙江地区；公司治理风险（61.72%）最为突出。从具体风险类型看，经营风险（13.25%）集中体现为供应商纠纷（53.36%）、主营业务销售纠纷（11.85%）；财务风险（25.03%）集体中体现为债务违约风险（57.13%）、应收账款风险（24.41%）；治理风险（61.72%）集体中体现为商业欺诈（94.2%）、人力纠纷（4.05%）。从具体案由看，证券虚假陈述责任纠纷（42.86%）占比最高；证券虚假陈述责任纠纷（同比增长617%）增速最快，需重点关注可能由此引发的风险。",
+      "case_rating": {
+        "riskEnterpriseProportion": 8.47457627118644,
+        "caseCountYoY": 3310.0,
+        "average": 21,
+        "industrie": "综合",
+        "median": 6,
+        "ssdyList": [
+          {
+            "c_ssdy": "北京市",
+            "percent": 57.31
+          },
+          {
+            "c_ssdy": "黑龙江省",
+            "percent": 7.38
+          }
+        ],
+        "ay": {
+          "@type": "java.util.HashMap",
+          "c_jaay": "证券虚假陈述责任纠纷",
+          "percent": 58.44
+        },
+        "caseCount": 6140.0,
+        "caseType": [
+          {
+            "case_type_one": "公司治理",
+            "percent": 82.98
+          },
+          {
+            "case_type_one": "公司经营",
+            "percent": 6.93
+          },
+          {
+            "case_type_one": "公司财务",
+            "percent": 10.09
+          }
+        ]
+      },
+      "group_by_industry": {
+        "growthRate": [
+          {
+            "case_type_one": "公司治理",
+            "percent": 14.71
+          },
+          {
+            "case_type_one": "公司经营",
+            "percent": 30.45
+          },
+          {
+            "case_type_one": "公司财务",
+            "percent": 54.85
+          }
+        ],
+        "caseType": [
+          {
+            "case_type_three": "三方服务纠纷",
+            "count": 17,
+            "case_type_one": "公司经营",
+            "percent": 3.81
+          },
+          {
+            "case_type_three": "业务效率风险",
+            "count": 14,
+            "case_type_one": "公司经营",
+            "percent": 3.14
+          },
+          {
+            "case_type_three": "主营业务销售纠纷",
+            "count": 12,
+            "case_type_one": "公司经营",
+            "percent": 2.69
+          },
+          {
+            "case_type_three": "产品（服务）质量纠纷",
+            "count": 2,
+            "case_type_one": "公司经营",
+            "percent": 0.45
+          },
+          {
+            "case_type_three": "人力纠纷",
+            "count": 39,
+            "case_type_one": "公司治理",
+            "percent": 8.74
+          },
+          {
+            "case_type_three": "供应商纠纷",
+            "count": 105,
+            "case_type_one": "公司经营",
+            "percent": 23.54
+          },
+          {
+            "case_type_three": "债务违约风险",
+            "count": 67,
+            "case_type_one": "公司财务",
+            "percent": 15.02
+          },
+          {
+            "case_type_three": "债权回收风险",
+            "count": 21,
+            "case_type_one": "公司财务",
+            "percent": 4.71
+          },
+          {
+            "case_type_three": "商业欺诈",
+            "count": 74,
+            "case_type_one": "公司治理",
+            "percent": 16.59
+          },
+          {
+            "case_type_three": "安全事故",
+            "count": 6,
+            "case_type_one": "公司治理",
+            "percent": 1.35
+          },
+          {
+            "case_type_three": "对外担保",
+            "count": 3,
+            "case_type_one": "公司财务",
+            "percent": 0.67
+          },
+          {
+            "case_type_three": "应收账款风险",
+            "count": 63,
+            "case_type_one": "公司财务",
+            "percent": 14.13
+          },
+          {
+            "case_type_three": "知识产权纠纷",
+            "count": 7,
+            "case_type_one": "公司经营",
+            "percent": 1.57
+          },
+          {
+            "case_type_three": "管理不当",
+            "count": 8,
+            "case_type_one": "公司经营",
+            "percent": 1.79
+          },
+          {
+            "case_type_three": "股东权益纠纷",
+            "count": 8,
+            "case_type_one": "公司治理",
+            "percent": 1.79
+          }
+        ]
+      },
+      "group_by_jaay": [
+        {
+          "c_jaay": "证券虚假陈述责任纠纷",
+          "percent": 4.58
+        },
+        {
+          "c_jaay": "建设工程施工合同纠纷",
+          "percent": 2.6
+        },
+        {
+          "c_jaay": "房屋租赁合同纠纷",
+          "percent": 2.6
+        },
+        {
+          "c_jaay": "买卖合同纠纷",
+          "percent": 2.29
+        },
+        {
+          "c_jaay": "合同纠纷",
+          "percent": 2.17
+        },
+        {
+          "c_jaay": "建设工程合同纠纷",
+          "percent": 1.92
+        },
+        {
+          "c_jaay": "租赁合同纠纷",
+          "percent": 1.55
+        },
+        {
+          "c_jaay": "劳动争议",
+          "percent": 1.42
+        },
+        {
+          "c_jaay": "房屋买卖合同纠纷",
+          "percent": 0.99
+        },
+        {
+          "c_jaay": "借款合同纠纷",
+          "percent": 0.87
+        }
+      ]
+    },
+    {
+      "name": "基础设施投融资",
+      "overall_risk": "近三年，基础设施投融资行业涉诉案件总体呈现下降趋势，案件主要集中在广东、河南地区；公司财务风险（79.1%）最为突出。 从具体风险类型看，经营风险（14.24%）集中体现为供应商纠纷（65.66%）、管理不当（14.19%）；财务风险（79.1%）集体中体现为债权回收风险（63.39%）、债务违约风险（18.82%）；治理风险（6.65%）集体中体现为人力纠纷（68.27%）。从具体案由看，借款合同纠纷（13.8%）占比最高；侵害作品信息网络传播权纠纷（同比增长161%）增速最快，需重点关注可能由此引发的风险。 ",
+      "case_rating": {
+        "riskEnterpriseProportion": 7.099236641221374,
+        "caseCountYoY": 3324.0,
+        "average": 3,
+        "industrie": "基础设施投融资",
+        "median": 3,
+        "ssdyList": [
+          {
+            "c_ssdy": "广东省",
+            "percent": 15.82
+          },
+          {
+            "c_ssdy": "山东省",
+            "percent": 13.92
+          }
+        ],
+        "ay": {
+          "@type": "java.util.HashMap",
+          "c_jaay": "借款合同纠纷",
+          "percent": 8.92
+        },
+        "caseCount": 3376.0,
+        "caseType": [
+          {
+            "case_type_one": "公司治理",
+            "percent": 6.44
+          },
+          {
+            "case_type_one": "公司经营",
+            "percent": 17.13
+          },
+          {
+            "case_type_one": "公司财务",
+            "percent": 76.43
+          }
+        ]
+      },
+      "group_by_industry": {
+        "growthRate": [
+          {
+            "case_type_one": "公司治理",
+            "percent": 6.57
+          },
+          {
+            "case_type_one": "公司经营",
+            "percent": 10.96
+          },
+          {
+            "case_type_one": "公司财务",
+            "percent": 82.47
+          }
+        ],
+        "caseType": [
+          {
+            "case_type_three": "三方服务纠纷",
+            "count": 4,
+            "case_type_one": "公司经营",
+            "percent": 0.55
+          },
+          {
+            "case_type_three": "业务效率风险",
+            "count": 3,
+            "case_type_one": "公司经营",
+            "percent": 0.42
+          },
+          {
+            "case_type_three": "主营业务销售纠纷",
+            "count": 5,
+            "case_type_one": "公司经营",
+            "percent": 0.69
+          },
+          {
+            "case_type_three": "人力纠纷",
+            "count": 46,
+            "case_type_one": "公司治理",
+            "percent": 6.37
+          },
+          {
+            "case_type_three": "供应商纠纷",
+            "count": 82,
+            "case_type_one": "公司经营",
+            "percent": 11.36
+          },
+          {
+            "case_type_three": "债务违约风险",
+            "count": 98,
+            "case_type_one": "公司财务",
+            "percent": 13.57
+          },
+          {
+            "case_type_three": "债权回收风险",
+            "count": 330,
+            "case_type_one": "公司财务",
+            "percent": 45.71
+          },
+          {
+            "case_type_three": "安全事故",
+            "count": 10,
+            "case_type_one": "公司治理",
+            "percent": 1.39
+          },
+          {
+            "case_type_three": "对外担保",
+            "count": 2,
+            "case_type_one": "公司财务",
+            "percent": 0.28
+          },
+          {
+            "case_type_three": "应收账款风险",
+            "count": 81,
+            "case_type_one": "公司财务",
+            "percent": 11.22
+          },
+          {
+            "case_type_three": "管理不当",
+            "count": 3,
+            "case_type_one": "公司经营",
+            "percent": 0.42
+          },
+          {
+            "case_type_three": "股东权益纠纷",
+            "count": 13,
+            "case_type_one": "公司治理",
+            "percent": 1.8
+          },
+          {
+            "case_type_three": "金融资产风险",
+            "count": 45,
+            "case_type_one": "公司财务",
+            "percent": 6.23
+          }
+        ]
+      },
+      "group_by_jaay": [
+        {
+          "c_jaay": "借款合同纠纷",
+          "percent": 8.62
+        },
+        {
+          "c_jaay": "金融借款合同纠纷",
+          "percent": 2.51
+        },
+        {
+          "c_jaay": "公证债权文书",
+          "percent": 2.38
+        },
+        {
+          "c_jaay": "合同纠纷",
+          "percent": 2.09
+        },
+        {
+          "c_jaay": "金融不良债权追偿纠纷",
+          "percent": 1.92
+        },
+        {
+          "c_jaay": "追偿权纠纷",
+          "percent": 1.84
+        },
+        {
+          "c_jaay": "服务合同纠纷",
+          "percent": 1.51
+        },
+        {
+          "c_jaay": "劳动争议",
+          "percent": 1.3
+        },
+        {
+          "c_jaay": "民间借贷纠纷",
+          "percent": 1.13
+        },
+        {
+          "c_jaay": "租赁合同纠纷",
+          "percent": 1.09
+        }
+      ]
+    }
+  ]
+}
